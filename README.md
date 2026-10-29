@@ -62,11 +62,6 @@ verification targets only: inference never copies them to repair a mismatch.
   training curves are included. Full training has not been rerun in this
   snapshot-preparation session; bitwise retraining across hardware is not promised.
 
-Stage2 is the V35 paper binary experiment. Stage3 preserves its own older
-frozen binary inputs to reproduce V66; these two historical versions are not
-interchangeable. The four modules are reproducible experiments, not a claim
-that swapping any upstream version preserves downstream predictions.
-
 ## Binary segmentation reference, V35
 
 | Model | Precision | Recall | Dice | IoU |
