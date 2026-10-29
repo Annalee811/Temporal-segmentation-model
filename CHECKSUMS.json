@@ -174,8 +174,8 @@
     },
     {
       "file": "02_root_background/README.md",
-      "bytes": 3207,
-      "sha256": "d1e5ddcf1c453567114eb6df5872cb970fc91f8dfdad7f8b09ca9416447db577"
+      "bytes": 2972,
+      "sha256": "e75203e4f0140a2ca3bd5188a194e80aaf1723e200458dad9f9f8a9c9ac01727"
     },
     {
       "file": "02_root_background/common.py",

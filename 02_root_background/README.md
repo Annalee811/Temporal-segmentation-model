@@ -56,7 +56,3 @@ plus translated training views. All dates at the same window retain their split;
 all dates from this specimen belong to one outer development group. This is an
 internal spatial test, not an independent tube test. Full inference uses256-pixel
 windows,192-pixel stride and Hann blending.
-
-Version boundary: V66 was trained on an older frozen binary probability set.
-Those arrays are preserved inside stage3 as explicit inputs. Replacing them
-with V35 predictions changes the historical V66 experiment and is not done here.
