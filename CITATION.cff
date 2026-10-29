@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Anonymous review snapshot. Replace citation authors and add the actual archival DOI after acceptance."
+title: "Root-image matching, segmentation and temporal refinement: reproducibility archive"
+type: software
+version: "submission-1.0.0"
+date-released: "2026-10-29"
+authors:
+  - name: "Anonymous authors"
+license: MIT

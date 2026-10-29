@@ -1,0 +1,4 @@
+-r 01_adjacent_matching/requirements.txt
+transformers==4.57.1
+scipy==1.16.2
+scikit-image==0.25.2

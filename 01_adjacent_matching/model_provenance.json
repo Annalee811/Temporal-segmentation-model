@@ -1,0 +1,23 @@
+{
+  "model": "Full RoMa outdoor with DINOv2 ViT-L/14 backbone",
+  "coarse_resolution": 560,
+  "upsample_resolution": 864,
+  "symmetric": true,
+  "use_custom_correlation": false,
+  "CUDA_detected": false,
+  "compute_device": "CPU",
+  "weights": [
+    {
+      "file": "roma_outdoor.pth",
+      "bytes": 445647516,
+      "sha256": "c7a45c80d41ad788a63c641d1b686d7cb3f297f40097c6f4e75039889e5cc8ba"
+    },
+    {
+      "file": "dinov2_vitl14_pretrain.pth",
+      "bytes": 1217586395,
+      "sha256": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428"
+    }
+  ],
+  "final_RGB_warp": "Saved single global similarity per disjoint region; never apply dense RoMa to RGB",
+  "confidence_view": "Already localized independent RGB; confidence conditional on selected geometry"
+}
