@@ -264,8 +264,8 @@
     },
     {
       "file": "03_temporal_V66/README.md",
-      "bytes": 2082,
-      "sha256": "4e731d786c230aa15d1fcd8e4807a6930159fc844e08e6cd7d3bad6e465706c3"
+      "bytes": 1888,
+      "sha256": "3c880825e48d8d4bc2b1ad3e8ea29e37e2427c119df9270ac43beb201c0a6df8"
     },
     {
       "file": "03_temporal_V66/core/coherence.py",

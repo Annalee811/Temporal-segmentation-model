@@ -34,7 +34,3 @@ Output codes are0=background,1=persistent,2=new,3=extension,4=T1baseline.
 Evaluation reference set B is distinct from training set A. T1 is shown but
 excluded from three-class temporal metrics. The common root-only evaluation
 retains missed roots as FN; it does not evaluate background segmentation.
-
-The binary arrays in this stage are the historical frozen inputs of V66.
-They differ from the V35 binary experiment in stage2 and must not be replaced
-when reproducing the original V66 scores.
