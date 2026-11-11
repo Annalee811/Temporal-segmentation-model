@@ -1,10 +1,5 @@
 # 1. Adjacent matching and registered observations
 
-The matcher is the full upstream RoMa outdoor network with DINOv2 ViT-L/14.
-Its source and original license are retained under `vendor`. The supplied
-four-period example uses one frozen similarity per observation region;
-the RGB images are never nonrigidly warped by the dense correspondence field.
-
 ```bash
 python -m pip install -r requirements.txt
 python ../tools/materialize_assets.py --stage 01_adjacent_matching
@@ -23,17 +18,5 @@ to rerun RoMa. The original neural inference command is:
 python run.py confidence --work ../work/registration
 ```
 
-This requires the two official weights listed with complete download URLs
-and SHA-256 values in `assets/weight_downloads.json`. Their combined size is
-about 1.6 GB. The upstream loader downloads to the standard Torch cache and
-verifies the pinned hashes. Resolution is560/864, symmetric matching is enabled,
-the seed is20261019, and custom CUDA correlation is disabled. CPU inference is
-supported but slower. Fresh neural matching was not rerun during preparation
-of this submission snapshot; geometric reconstruction and cached-field quality
-calculations were rerun separately.
 
-Cumulative confidence transports coordinates through adjacent observed dates
-and multiplies the smaller forward/reverse score at each step. Effective
-support requires confidence≥0.5, step displacement≤15 and cycle error≤10 native
-reference pixels. These are operational matching criteria, not independently
-measured landmark accuracy. Missing periods must not be synthesized.
+
