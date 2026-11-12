@@ -58,7 +58,7 @@ python figures.py --v66 work/V66 --v90 work/V90/reviewed/full --output outputs/f
 | V66 U-Net | 0.713237 | 0.626386 | 0.697819 | 0.736761 | 0.939259 |
 | V66 DeepLabV3+ | 0.583733 | 0.468376 | 0.640777 | 0.536408 | 0.751044 |
 | V66 SegFormer-B0 | 0.608901 | 0.486818 | 0.705272 | 0.539979 | 0.732661 |
-| V90 reviewed U-Net refinement | 0.811774 | 0.723593 | 0.807313 | 0.820517 | 0.961004 |
+| V90 reviewed U-Net refinement | 0.881774 | 0.723593 | 0.807313 | 0.820517 | 0.961004 |
 
 
 
