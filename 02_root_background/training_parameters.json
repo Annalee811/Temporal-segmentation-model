@@ -1,0 +1,17 @@
+{
+  "seed": 20261022,
+  "maximum_epochs": 100,
+  "minimum_epochs": 100,
+  "physical_batch": 2,
+  "gradient_accumulation": 4,
+  "effective_batch": 8,
+  "initial_lr": 0.0003,
+  "lr_factor": 0.5,
+  "lr_patience": 8,
+  "minimum_lr": 1e-06,
+  "early_stopping_patience": 1000000,
+  "early_stopping_min_delta": 0.001,
+  "tensorflow_vendor_SHA256": "ba0e931160d08519b9c8f3fe23c61b0678c4faa0b8818c38e04d533ef75ad361",
+  "early_stopping_enabled": false,
+  "tensorflow_vendor_directory": "vendor/deeplab"
+}

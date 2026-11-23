@@ -1,0 +1,14 @@
+{
+  "version": "2026-10-19-canonical-v1",
+  "aliases": {
+    "0353-1-Z2": "Q1-1-Z2"
+  },
+  "excluded_positions": [
+    "Q1-3-Z3"
+  ],
+  "exclusion_scope": "Current manuscript figures, active datasets, future training/validation/testing and batch inference. Historical artifacts remain traceable.",
+  "tube_id_rule": "Remove the last hyphen-separated position suffix from the canonical ID; Q1-1-Z2 belongs to Q1-1.",
+  "temporal_group_rule": "All observed dates from one position stay in the same train/validation/test partition. Prefer complete tubes as groups for new cross-tube evaluations.",
+  "missing_periods": "Keep missing dates absent; never replace a missing image with zeros or another date.",
+  "corrected_position_quality": "Q1-1-Z2 retains the latest root-band candidate localization; the T2-to-T3 link remains coarse/unverified. Renaming does not improve its registration quality."
+}

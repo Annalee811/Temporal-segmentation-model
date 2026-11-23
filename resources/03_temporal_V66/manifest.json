@@ -1,0 +1,405 @@
+{
+  "format": "lossless-zip-shards-v1",
+  "stage": "03_temporal_V66",
+  "archive_sha256": "b838b417f247cc9e9211246926d46163b703fd0c6b7adbbaa979db6694085bf1",
+  "archive_bytes": 146926016,
+  "parts": [
+    {
+      "file": "part000.bin",
+      "bytes": 16777216,
+      "sha256": "f44272d3911e66eaca3439c2a403d292a993a2c04164c2e5a13f64a012586680"
+    },
+    {
+      "file": "part001.bin",
+      "bytes": 16777216,
+      "sha256": "65b49d67854332a997cb8ae0384b10ebf5224e2630ce40f060e2e46a21458ba8"
+    },
+    {
+      "file": "part002.bin",
+      "bytes": 16777216,
+      "sha256": "bcc45c93fd1978be0333c55171b5f553189c89be3837117afdaaa8dd0d9d4200"
+    },
+    {
+      "file": "part003.bin",
+      "bytes": 16777216,
+      "sha256": "a6e7abc9fa3afd0e9af0e9ae8d75206d63b4ee33228ac276c3b04a4427fc0283"
+    },
+    {
+      "file": "part004.bin",
+      "bytes": 16777216,
+      "sha256": "045fff96a1dc75bc04e64e793ad96c7352b0dc151e4adc2a5892d17b468b7efc"
+    },
+    {
+      "file": "part005.bin",
+      "bytes": 16777216,
+      "sha256": "95d482b60448b0f4b795454393277d842957f0918310ff47acc40485a7fcb3db"
+    },
+    {
+      "file": "part006.bin",
+      "bytes": 16777216,
+      "sha256": "5bf29c046e7f869a7893350699a0b5b6d70660fc13fb476fbb72aafc65cc1c6a"
+    },
+    {
+      "file": "part007.bin",
+      "bytes": 16777216,
+      "sha256": "15ae4bc5385c557d8a55ec3a86cd00c1a518567d645d720c36fc11d325d551f3"
+    },
+    {
+      "file": "part008.bin",
+      "bytes": 12708288,
+      "sha256": "bae00ca846c2e10ff2d7524af193fbec016571c0d1e6a81665cae365a7f06abb"
+    }
+  ],
+  "files": [
+    {
+      "file": "assets/RGB/T1_RGB.png",
+      "bytes": 6034977,
+      "sha256": "c8548de563b4d5ac0b223235758f7cdf6f118ac70614a7792a86f12fb9eb295b"
+    },
+    {
+      "file": "assets/RGB/T2_RGB.png",
+      "bytes": 4367012,
+      "sha256": "e65b91ef07abea8527b71a97a37e2ff19ca1a6527ff0090970cf084bba338b3c"
+    },
+    {
+      "file": "assets/RGB/T3_RGB.png",
+      "bytes": 3901381,
+      "sha256": "3df9bca33ebd9ee88a2eab874143569d5f8d9cdb7cd49d326754791f1b58e8e6"
+    },
+    {
+      "file": "assets/RGB/T4_RGB.png",
+      "bytes": 4521300,
+      "sha256": "d43a5d5fd491ed05579f2f32bc853808165431ef15c30eac48f143b20160bdea"
+    },
+    {
+      "file": "assets/evaluation_reference/T1_classes.png",
+      "bytes": 50253,
+      "sha256": "00a70b4459e5b84fd71e2e435ce4e1b73539a8d5ed2e4d59711ecc1ebf9c4abb"
+    },
+    {
+      "file": "assets/evaluation_reference/T2_classes.png",
+      "bytes": 76772,
+      "sha256": "b74db8f9463475dca827d2c281187f1cdbf6730ba1c28f8b1e74b358eda8bfda"
+    },
+    {
+      "file": "assets/evaluation_reference/T3_classes.png",
+      "bytes": 81822,
+      "sha256": "619d4a3dda8cd58a4ddb893567ceee32ddee181fa6c44f71107bbfa20f36a403"
+    },
+    {
+      "file": "assets/evaluation_reference/T4_classes.png",
+      "bytes": 74400,
+      "sha256": "68b45b5fd07e7fdaa6e974f766f1b1c4c9b9d9758e9107faf379963a4a19c661"
+    },
+    {
+      "file": "assets/expected/deeplab/T1_classes.png",
+      "bytes": 44755,
+      "sha256": "d90a338946882f573b48f1dd4f26aa45e1c13b61fdec43bbfba3f795909c7130"
+    },
+    {
+      "file": "assets/expected/deeplab/T2_classes.png",
+      "bytes": 77534,
+      "sha256": "56b81d47ec3dcc6924c550f8dd20f7311bbf2fce2a259e3081ca0c9d2ee1283f"
+    },
+    {
+      "file": "assets/expected/deeplab/T3_classes.png",
+      "bytes": 86420,
+      "sha256": "bee2ee4bdfb1021325e73d63f0e91c3efcab0338ec3b46ccde5ae585c638e61d"
+    },
+    {
+      "file": "assets/expected/deeplab/T4_classes.png",
+      "bytes": 66582,
+      "sha256": "283839cf74044f0cd44de979f8d3f5bfd217b9ad4034324eea3807ec790412b2"
+    },
+    {
+      "file": "assets/expected/segformer/T1_classes.png",
+      "bytes": 45413,
+      "sha256": "75e7dd88270f995a0916326fd40e1bd0a9b106a85ae8487e007f6562ed6445cb"
+    },
+    {
+      "file": "assets/expected/segformer/T2_classes.png",
+      "bytes": 82737,
+      "sha256": "2c5b3d841bdf4bcef7b4ce52a631b7925768abb3014e53aea9433807cecb15d5"
+    },
+    {
+      "file": "assets/expected/segformer/T3_classes.png",
+      "bytes": 83968,
+      "sha256": "5664fa051160698c5bd44323775c64f97e8ebeed560ca678f104987695ef461e"
+    },
+    {
+      "file": "assets/expected/segformer/T4_classes.png",
+      "bytes": 67714,
+      "sha256": "80bb4012a2832c378903d5c45d0221b7898fd90ffe43c75cdf6ca7f54767b16f"
+    },
+    {
+      "file": "assets/expected/unet/T1_classes.png",
+      "bytes": 50262,
+      "sha256": "15d4099267772ec44a2837507ef78288662018435654fc228d831a0c37f5bb2f"
+    },
+    {
+      "file": "assets/expected/unet/T2_classes.png",
+      "bytes": 78333,
+      "sha256": "2adfd5a8cd9856e10af2b13a3f508e078745f8a4d5570cf23019fd37ee0ba43a"
+    },
+    {
+      "file": "assets/expected/unet/T3_classes.png",
+      "bytes": 82720,
+      "sha256": "d106b7265e20995800779d7e41fd8e66c2a5f983afd7d249a1c55f4077926890"
+    },
+    {
+      "file": "assets/expected/unet/T4_classes.png",
+      "bytes": 74593,
+      "sha256": "127a37d724eaf6f5a3034cd1bba14c033de3c9297050ef003a3f6008ed2321ac"
+    },
+    {
+      "file": "assets/frozen_binary/deeplab/input_manifest.json",
+      "bytes": 1068,
+      "sha256": "4e4ae8bbf39bc240a4828291be99d243edb49e495d9a5edeb42bd5db8139f89c"
+    },
+    {
+      "file": "assets/frozen_binary/deeplab/upper/T1_probability.npy",
+      "bytes": 11261840,
+      "sha256": "2ddac324511de3302d6971ee525cbb78aab59548f8ba7eb6d5fe694c229ad199"
+    },
+    {
+      "file": "assets/frozen_binary/deeplab/upper/T1_root_mask.png",
+      "bytes": 44758,
+      "sha256": "2468f4d7c743e407cf4dd5666718ae02c2ed73c9cf874fde6b57f61b3df50722"
+    },
+    {
+      "file": "assets/frozen_binary/deeplab/upper/T2_probability.npy",
+      "bytes": 11261840,
+      "sha256": "29ff4f9e6db534dc26b4a00b6d5dcf64d1abc896e4597f2962549b521ce73b5c"
+    },
+    {
+      "file": "assets/frozen_binary/deeplab/upper/T2_root_mask.png",
+      "bytes": 70379,
+      "sha256": "593e37a46bc7d3e2e1c0c69fa0340d3f89817d949155b2e698cfc55664abc1a5"
+    },
+    {
+      "file": "assets/frozen_binary/deeplab/upper/T3_probability.npy",
+      "bytes": 11261840,
+      "sha256": "45082991747907f4883495f435cf57b9ffe49578cbc2dac11279c43b2bd85e38"
+    },
+    {
+      "file": "assets/frozen_binary/deeplab/upper/T3_root_mask.png",
+      "bytes": 78670,
+      "sha256": "822fc56c3dc3372aca3ca0b2b50edbd8c541442903c18bf2d3895e769c497e90"
+    },
+    {
+      "file": "assets/frozen_binary/deeplab/upper/T4_probability.npy",
+      "bytes": 11261840,
+      "sha256": "57323acdc8065e045c0306d53c4aac3436035f5c90ee7e643786a4a8c2a22e70"
+    },
+    {
+      "file": "assets/frozen_binary/deeplab/upper/T4_root_mask.png",
+      "bytes": 64793,
+      "sha256": "59d530955635295aaa6b8aebe5c09ec36598a4d2f1204ab20f87dff94ee8cd86"
+    },
+    {
+      "file": "assets/frozen_binary/segformer/input_manifest.json",
+      "bytes": 1068,
+      "sha256": "e85af4b8ae6b8dbebefe79a958aa981424a85b79c7e315235b726b1cd05a4887"
+    },
+    {
+      "file": "assets/frozen_binary/segformer/upper/T1_probability.npy",
+      "bytes": 11261840,
+      "sha256": "988b4ee05e38ec8b3f888c3a47b08ef1e2d3660a5003e9565e993da7447ca649"
+    },
+    {
+      "file": "assets/frozen_binary/segformer/upper/T1_root_mask.png",
+      "bytes": 45429,
+      "sha256": "c0fd259ea5472e3efd06879ddfe6addeb2ab0c5554979ccc431799a13bb0a71e"
+    },
+    {
+      "file": "assets/frozen_binary/segformer/upper/T2_probability.npy",
+      "bytes": 11261840,
+      "sha256": "afab90c6a48c84f7154416f46ac77b454fca12b957e66309fec5629b1af09e53"
+    },
+    {
+      "file": "assets/frozen_binary/segformer/upper/T2_root_mask.png",
+      "bytes": 74722,
+      "sha256": "ce17a36a31a427cc4d19a44a2ca35dd814d9cfca0cfb84c7694485cd92234159"
+    },
+    {
+      "file": "assets/frozen_binary/segformer/upper/T3_probability.npy",
+      "bytes": 11261840,
+      "sha256": "1ab1968799057cd01192e392c70ee6a1ab70e2897a1be48939cdfb4010cafdee"
+    },
+    {
+      "file": "assets/frozen_binary/segformer/upper/T3_root_mask.png",
+      "bytes": 78441,
+      "sha256": "f4057dcb561e4aa5528bf1ff202ad6c4c401ff4d2a188bb569a6c31a4d3c9d9f"
+    },
+    {
+      "file": "assets/frozen_binary/segformer/upper/T4_probability.npy",
+      "bytes": 11261840,
+      "sha256": "754e16d869d167008df132cc00b870eddd6fd08e0248d5caf2b99b4890858f5e"
+    },
+    {
+      "file": "assets/frozen_binary/segformer/upper/T4_root_mask.png",
+      "bytes": 66068,
+      "sha256": "0a5340410bd7f264db4674b60863060e659ace5e031282dc941feb396f5f7594"
+    },
+    {
+      "file": "assets/frozen_binary/unet/input_manifest.json",
+      "bytes": 1068,
+      "sha256": "962aef491ceab0a9871b9f7288b1a2e20e224a6de3e31aaa2669f15f9af45d70"
+    },
+    {
+      "file": "assets/frozen_binary/unet/upper/T1_probability.npy",
+      "bytes": 11261840,
+      "sha256": "46236d5bcf4f12a114a96375dcf1eb5b7dd6202034e1c09538b487b4a66a6bd9"
+    },
+    {
+      "file": "assets/frozen_binary/unet/upper/T1_root_mask.png",
+      "bytes": 50204,
+      "sha256": "a8894068fa4781a854b0ce580b0d0518b4569da18c7db0fd40cb73babbfcfa3a"
+    },
+    {
+      "file": "assets/frozen_binary/unet/upper/T2_probability.npy",
+      "bytes": 11261840,
+      "sha256": "5b5175911c585b57d7b808e3745b858a2539a6efa469fe432eccb1eed0b22d11"
+    },
+    {
+      "file": "assets/frozen_binary/unet/upper/T2_root_mask.png",
+      "bytes": 71943,
+      "sha256": "3b35954636e942fb4cca8ca5d5be3474464e1fc365126ff11e8085e328b0fd01"
+    },
+    {
+      "file": "assets/frozen_binary/unet/upper/T3_probability.npy",
+      "bytes": 11261840,
+      "sha256": "56437181eddd4693cfcdc21bcd577a25dc23de7c2d796adaa16450ffe671ebc6"
+    },
+    {
+      "file": "assets/frozen_binary/unet/upper/T3_root_mask.png",
+      "bytes": 78109,
+      "sha256": "459845cc4fd543a49a06abaab9315004c65c87339600d5b17294872014055af6"
+    },
+    {
+      "file": "assets/frozen_binary/unet/upper/T4_probability.npy",
+      "bytes": 11261840,
+      "sha256": "a2f1ce123f384f6d9398ba4f2f6462901c5ca8cfba2c7cae578d2687fa9c695a"
+    },
+    {
+      "file": "assets/frozen_binary/unet/upper/T4_root_mask.png",
+      "bytes": 73503,
+      "sha256": "3c460444a758117a1034d69624be373f20fc6c2057687a16f22b4d8cef0620d9"
+    },
+    {
+      "file": "assets/paired_manifest.csv",
+      "bytes": 8481,
+      "sha256": "7c081378cb8d742ed1c376918c904db046c2f3c3b42e8b91ab50a6c6b46741af"
+    },
+    {
+      "file": "assets/spatial_manifest.csv",
+      "bytes": 1766,
+      "sha256": "51bbf651d91f3f881afd5096d91853e601cbc3ee92e0b4c3af7be26c6689654d"
+    },
+    {
+      "file": "assets/training_annotation_manifest.json",
+      "bytes": 543,
+      "sha256": "99b8936e265cedb9a21b4867c9ddaaa0c96d28fa13c55eb7d93c5ad8c20f3ff7"
+    },
+    {
+      "file": "assets/training_parameters.json",
+      "bytes": 883,
+      "sha256": "e08684ada4a3616fa6ce4cdf0a9ecd1f8f4b88569e64ffd196bba5946a8fff34"
+    },
+    {
+      "file": "assets/training_targets/T1_classes.png",
+      "bytes": 50945,
+      "sha256": "a5bc1e598d7a838beaa088dea2f16a6686540eb2a4f5a290828c605a20471e91"
+    },
+    {
+      "file": "assets/training_targets/T2_classes.png",
+      "bytes": 78030,
+      "sha256": "cd774c724dd169db288a9a7c4ee094f6df5065c51d003cf8e7145c30112dc0ef"
+    },
+    {
+      "file": "assets/training_targets/T3_classes.png",
+      "bytes": 85551,
+      "sha256": "949f9f09c373f2aa4cb0a90890e3466602a676a60155f23a3cc519e2a30fbd6a"
+    },
+    {
+      "file": "assets/training_targets/T4_classes.png",
+      "bytes": 78191,
+      "sha256": "53430a42babf07c2a8c9d7312822e44986bbbe0e9279d4eb56827f130d059ade"
+    },
+    {
+      "file": "assets/weights/deeplab/best_temporal_head.pt",
+      "bytes": 410133,
+      "sha256": "eecd094e282f61962dbeceaf44b7dd8e7c1b7b412cb48e93ce075eca24f7f188"
+    },
+    {
+      "file": "assets/weights/deeplab/initial_head.pt",
+      "bytes": 409821,
+      "sha256": "557116e7f3a4b37ede6998be12f0c05f4a4e1f18ef47c3f869e5db440a090ac3"
+    },
+    {
+      "file": "assets/weights/deeplab/model_parameters.json",
+      "bytes": 121,
+      "sha256": "8e1265586dba6198c6edc72796e1c0d6cd0eb403a7289da25c1cfcb1f8416d95"
+    },
+    {
+      "file": "assets/weights/deeplab/training_curves.csv",
+      "bytes": 37326,
+      "sha256": "03b769892911c6dfe290144112f057500c1e33f1a405714b9f9a9aebbb82fb4b"
+    },
+    {
+      "file": "assets/weights/deeplab/weights_provenance.json",
+      "bytes": 316,
+      "sha256": "22665ddab744dff75cc5d978845467078ecd3c7c0cdfdba39cc355ba6d334a42"
+    },
+    {
+      "file": "assets/weights/segformer/best_temporal_head.pt",
+      "bytes": 410133,
+      "sha256": "afe71066fd562b6ad250635121e8ab2b2f2ae74165ade3d40e5d3e872b9579b4"
+    },
+    {
+      "file": "assets/weights/segformer/initial_head.pt",
+      "bytes": 409821,
+      "sha256": "557116e7f3a4b37ede6998be12f0c05f4a4e1f18ef47c3f869e5db440a090ac3"
+    },
+    {
+      "file": "assets/weights/segformer/model_parameters.json",
+      "bytes": 121,
+      "sha256": "0ee7a5622895caa628bfd501a8e5a9a9c0d44c334ce4b17e7099f2cf8aa95181"
+    },
+    {
+      "file": "assets/weights/segformer/training_curves.csv",
+      "bytes": 36469,
+      "sha256": "cf4198ab88342a5b5cb90cd2994359dbeb4878802fd22b9951b4d5ac1b4260c5"
+    },
+    {
+      "file": "assets/weights/segformer/weights_provenance.json",
+      "bytes": 316,
+      "sha256": "f57217baa6308a022257ff4a9c8d3dd56ec5db58b0cc19e088b3a783700a7f35"
+    },
+    {
+      "file": "assets/weights/unet/best_temporal_head.pt",
+      "bytes": 410133,
+      "sha256": "794948f4a77075249678095546348d26fb359780669727643724ebca96a3001b"
+    },
+    {
+      "file": "assets/weights/unet/initial_head.pt",
+      "bytes": 409821,
+      "sha256": "557116e7f3a4b37ede6998be12f0c05f4a4e1f18ef47c3f869e5db440a090ac3"
+    },
+    {
+      "file": "assets/weights/unet/model_parameters.json",
+      "bytes": 121,
+      "sha256": "6375d3a26178aee9b200a0bf41e0a0de3d93a7e6faf553d7dc609d48c36a1241"
+    },
+    {
+      "file": "assets/weights/unet/training_curves.csv",
+      "bytes": 37321,
+      "sha256": "15b43ebf70e1ea3b23eeabcd33cefebe394390ed5436c5e9007278bc264dcd71"
+    },
+    {
+      "file": "assets/weights/unet/weights_provenance.json",
+      "bytes": 316,
+      "sha256": "1e864e6e5ce25ebcb78f61f760dd76d2cc0e21830af6dfd3045c15ea723f317d"
+    }
+  ]
+}
