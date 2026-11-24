@@ -1,0 +1,29 @@
+{
+  "state": "complete",
+  "positions": 18,
+  "images": 66,
+  "period_slots": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "scope": "common fields across observed periods; missing periods remain blank",
+  "model_checkpoint": "V35_310_best.pt",
+  "model_SHA256": "43506267181c04ae44a0de280ce9c03839ea05f23468988b0be8e984cd52f940",
+  "training_epochs": 100,
+  "selected_epoch": 32,
+  "threshold": 0.5,
+  "original_noncommon_field_excluded": true,
+  "separators_excluded_from_root_masks": true,
+  "common_RGB_existing_pixels_preserved": true,
+  "RGB_resampled_by_this_export": false,
+  "excluded_positions": [
+    {
+      "position": "Q1-3-Z3",
+      "observed_periods": "T1;T2;T3",
+      "reason": "No established common observation field"
+    }
+  ],
+  "seconds": 40.899356570000236
+}

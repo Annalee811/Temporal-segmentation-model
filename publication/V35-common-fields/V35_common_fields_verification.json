@@ -1,0 +1,17 @@
+{
+  "images": 66,
+  "positions": 18,
+  "period_slots": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "missing_panels": 6,
+  "missing_not_synthesized": true,
+  "identical_common_size_per_position": true,
+  "zero_roots_outside_common_domain": true,
+  "source_common_RGB_unchanged": true,
+  "nonroot_background_unchanged": true,
+  "model_SHA256": "43506267181c04ae44a0de280ce9c03839ea05f23468988b0be8e984cd52f940"
+}
