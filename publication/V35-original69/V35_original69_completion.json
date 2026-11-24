@@ -1,0 +1,56 @@
+{
+  "state": "complete",
+  "images": 69,
+  "positions": 19,
+  "physical_tubes": 9,
+  "source_manifest_SHA256": "a54d8c308cf8c2d912e1307ebcb06577035e8c0bdd313d411a43b6f237c68e66",
+  "source_repository": "Annalee811/LI",
+  "source_commit": "cd161aeebe942f515ee98c88881991ad02784631",
+  "image_scope": "all native original input images listed by source_manifest.json",
+  "model_checkpoint": "V35_310_best.pt",
+  "model_SHA256": "43506267181c04ae44a0de280ce9c03839ea05f23468988b0be8e984cd52f940",
+  "training_epochs": 100,
+  "selected_epoch": 32,
+  "threshold": 0.5,
+  "classes": "root/background only",
+  "native_resolution_preserved": true,
+  "missing_observations": [
+    {
+      "position": "A017-1-B2",
+      "period": "T3",
+      "reason": "No original source observation"
+    },
+    {
+      "position": "A017-1-Z2",
+      "period": "T3",
+      "reason": "No original source observation"
+    },
+    {
+      "position": "Q1-1-B2",
+      "period": "T2",
+      "reason": "No original source observation"
+    },
+    {
+      "position": "Q1-1-Z3",
+      "period": "T4",
+      "reason": "No original source observation"
+    },
+    {
+      "position": "Q1-2-Z2",
+      "period": "T2",
+      "reason": "No original source observation"
+    },
+    {
+      "position": "Q1-2-Z3",
+      "period": "T3",
+      "reason": "No original source observation"
+    },
+    {
+      "position": "Q1-3-Z3",
+      "period": "T4",
+      "reason": "No original source observation"
+    }
+  ],
+  "independent_accuracy_not_evaluated": true,
+  "seconds": 1000.9501932279964
+}

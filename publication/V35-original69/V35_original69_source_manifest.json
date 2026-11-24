@@ -1,0 +1,554 @@
+[
+  {
+    "position": "0353-1-B3",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-1-B3/T1.jpg",
+    "sha256": "e067c8ecd36e80020e2c242fca4ce7c9d772dbf032072d201eb657e43a1c5c06",
+    "normalized_path": "inputs/raw/0353-1-B3/T1.jpg"
+  },
+  {
+    "position": "0353-1-B3",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-1-B3/T2.jpg",
+    "sha256": "f09e66a71ca84f846d7c03346839c7c5db3397e4a6e52b5b293b22595d477072",
+    "normalized_path": "inputs/raw/0353-1-B3/T2.jpg"
+  },
+  {
+    "position": "0353-1-B3",
+    "period": 3,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-1-B3/T3.jpg",
+    "sha256": "83f2a9b1a5f97d31167d9340f73ac4d9a70207a5bbb1fdbeacbd2bdf97bdac6e",
+    "normalized_path": "inputs/raw/0353-1-B3/T3.jpg"
+  },
+  {
+    "position": "0353-1-B3",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-1-B3/T4.jpg",
+    "sha256": "618c3dc8681f54152e7f47cc52b1b0af01dd654fca2a12fcfa9c650ca22c1eea",
+    "normalized_path": "inputs/raw/0353-1-B3/T4.jpg"
+  },
+  {
+    "position": "0353-1-Z2",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-1-Z2/T1.jpg",
+    "sha256": "3f0d0375d711a17adf5a3d3ff66e1e078846922b159a15e4eb84285000b85af6",
+    "normalized_path": "inputs/raw/0353-1-Z2/T1.jpg"
+  },
+  {
+    "position": "0353-1-Z2",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-1-Z2/T2.png",
+    "sha256": "bcc8b22a6ac3e07aec5151d66f9b20eecb11ae204265a2746980d07e1c45847b",
+    "normalized_path": "inputs/raw/0353-1-Z2/T2.png"
+  },
+  {
+    "position": "0353-1-Z2",
+    "period": 3,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-1-Z2/T3.png",
+    "sha256": "6e4613764b85caf8a9965690490dd759d0c4b4f68593dca8c95412b6e74ccd5f",
+    "normalized_path": "inputs/raw/0353-1-Z2/T3.png"
+  },
+  {
+    "position": "0353-1-Z2",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-1-Z2/T4.jpg",
+    "sha256": "f45263c8f813134a8a4c3b6bebfe4a09e197a8e76756259983b59470e213a604",
+    "normalized_path": "inputs/raw/0353-1-Z2/T4.jpg"
+  },
+  {
+    "position": "0353-2-B3",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-2-B3/T1.png",
+    "sha256": "b73a853d17b1a061ebcba122026c3fafec83cbe480463f35884180182c6df0a5",
+    "normalized_path": "inputs/raw/0353-2-B3/T1.png"
+  },
+  {
+    "position": "0353-2-B3",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-2-B3/T2.png",
+    "sha256": "a11fe41516b6fea91cbf0e383f4b41b41aa71cae28d4806d40d636f559045973",
+    "normalized_path": "inputs/raw/0353-2-B3/T2.png"
+  },
+  {
+    "position": "0353-2-B3",
+    "period": 3,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-2-B3/T3.png",
+    "sha256": "396096b3f7bbab3c7c733952b81bc814ad096fbde9026f2fae34cd5e4ba575dd",
+    "normalized_path": "inputs/raw/0353-2-B3/T3.png"
+  },
+  {
+    "position": "0353-2-B3",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-2-B3/T4.TIFF",
+    "sha256": "59d755b267c04bd7fa94b1f40cb2070ea1fec8db1f389aa27644355976f116cc",
+    "normalized_path": "inputs/raw/0353-2-B3/T4.tiff"
+  },
+  {
+    "position": "0353-2-LB2",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-2-LB2/T1.jpg",
+    "sha256": "e7c53254cb042f5ad886dfe0be0b335d1e30f8b42e76707dabc189d4fb4347f3",
+    "normalized_path": "inputs/raw/0353-2-LB2/T1.jpg"
+  },
+  {
+    "position": "0353-2-LB2",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-2-LB2/T2.jpg",
+    "sha256": "7002c3bddae59b2a4095b56e7423d42e855c6d4c1a1e586f2930c3f76a10b462",
+    "normalized_path": "inputs/raw/0353-2-LB2/T2.jpg"
+  },
+  {
+    "position": "0353-2-LB2",
+    "period": 3,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-2-LB2/T3.png",
+    "sha256": "8b2a34062a4244eb02ada2f1fef6d348bf5b66d83d41b460a6ca800ac27617c5",
+    "normalized_path": "inputs/raw/0353-2-LB2/T3.png"
+  },
+  {
+    "position": "0353-2-LB2",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-2-LB2/T4.jpg",
+    "sha256": "3909518ac7cde5e64bc7056ae9e9d209de33e5aa9c45cc200a4faf5f6e131afc",
+    "normalized_path": "inputs/raw/0353-2-LB2/T4.jpg"
+  },
+  {
+    "position": "0353-2-LB3",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-2-LB3/T1.jpg",
+    "sha256": "fbc53fe7ba443f423d718f21c429c651111640eff364e38647f6dfe5cb25beb0",
+    "normalized_path": "inputs/raw/0353-2-LB3/T1.jpg"
+  },
+  {
+    "position": "0353-2-LB3",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-2-LB3/T2.jpg",
+    "sha256": "e50bf9dba03e477291bf1cafd53f646aa3fa03fac3cb9d9c391a983f5532a97f",
+    "normalized_path": "inputs/raw/0353-2-LB3/T2.jpg"
+  },
+  {
+    "position": "0353-2-LB3",
+    "period": 3,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-2-LB3/T3.png",
+    "sha256": "278354a392563e3b07b0eba37c03f21e8e7451dad062468217cd57384ef758ea",
+    "normalized_path": "inputs/raw/0353-2-LB3/T3.png"
+  },
+  {
+    "position": "0353-2-LB3",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-2-LB3/T4.jpg",
+    "sha256": "3b4a0b654728bba551e1a8f6187b6d9052dfc09a4fa8cc13d405cebdaf690c18",
+    "normalized_path": "inputs/raw/0353-2-LB3/T4.jpg"
+  },
+  {
+    "position": "0353-3-LB2",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-3-LB2/T1.jpg",
+    "sha256": "b6c5f1376105f7ca1c8e888758ef9c2cb42e5e7d17070dd553a3b66b8d014828",
+    "normalized_path": "inputs/raw/0353-3-LB2/T1.jpg"
+  },
+  {
+    "position": "0353-3-LB2",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-3-LB2/T2.jpg",
+    "sha256": "84b83e52b5cbf910c567067628c423d93640fb4ce573ae44a5e9ed95e68c3e54",
+    "normalized_path": "inputs/raw/0353-3-LB2/T2.jpg"
+  },
+  {
+    "position": "0353-3-LB2",
+    "period": 3,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-3-LB2/T3.png",
+    "sha256": "7cc7746b6a336803e1dfe3a88c803cd48a7c525ce794d4a552cf34374fd693e0",
+    "normalized_path": "inputs/raw/0353-3-LB2/T3.png"
+  },
+  {
+    "position": "0353-3-LB2",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-3-LB2/T4.jpg",
+    "sha256": "b66786c39704b6aefd1091382b9c07cbdb89a3180464b8a3a17a554bc25420bd",
+    "normalized_path": "inputs/raw/0353-3-LB2/T4.jpg"
+  },
+  {
+    "position": "0353-3-LB3",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-3-LB3/T1.jpg",
+    "sha256": "7f53f3f1c6301215e32c564d07c24de9948553826b870732ea2504b9a2230ef7",
+    "normalized_path": "inputs/raw/0353-3-LB3/T1.jpg"
+  },
+  {
+    "position": "0353-3-LB3",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-3-LB3/T2.jpg",
+    "sha256": "6d475474b090d89565137d85f3f899ffb1eea9510817a372b909aebb1b12ea11",
+    "normalized_path": "inputs/raw/0353-3-LB3/T2.jpg"
+  },
+  {
+    "position": "0353-3-LB3",
+    "period": 3,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-3-LB3/T3.png",
+    "sha256": "bb4a6970642370c954728f6c460952f3c239e1d2e37d75e76b679b7a6d4659ce",
+    "normalized_path": "inputs/raw/0353-3-LB3/T3.png"
+  },
+  {
+    "position": "0353-3-LB3",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/0353-3-LB3/T4.jpg",
+    "sha256": "e12d5646eb1e81563b57700fc9c183f4b0fa0e777b74fd55335d2f8227d0ee18",
+    "normalized_path": "inputs/raw/0353-3-LB3/T4.jpg"
+  },
+  {
+    "position": "A017-1-B2",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-1-B2/T1.jpg",
+    "sha256": "1df8930f5bcb7730f67b71f4da0c5d4a3fc372578e02042a0e3474cc1f6f7d94",
+    "normalized_path": "inputs/raw/A017-1-B2/T1.jpg"
+  },
+  {
+    "position": "A017-1-B2",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-1-B2/T2.jpg",
+    "sha256": "604b5b2b963166da77f992093b7ac1bfa9f388cada2892fa78c7dbae6a838335",
+    "normalized_path": "inputs/raw/A017-1-B2/T2.jpg"
+  },
+  {
+    "position": "A017-1-B2",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-1-B2/T4.jpg",
+    "sha256": "e15d69407e52e9552bc920cf34f5bac6db461d8de005dd75c1292af6f7677e5b",
+    "normalized_path": "inputs/raw/A017-1-B2/T4.jpg"
+  },
+  {
+    "position": "A017-1-Z2",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-1-Z2/T1.jpg",
+    "sha256": "f048169a76c248d7a3d9ed54d76113333a36bdbd84b02f4d618029f13b217434",
+    "normalized_path": "inputs/raw/A017-1-Z2/T1.jpg"
+  },
+  {
+    "position": "A017-1-Z2",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-1-Z2/T2.jpg",
+    "sha256": "b94eae540825a056e2e920da9bea2baff998f14101910cdea1342479ba64ee08",
+    "normalized_path": "inputs/raw/A017-1-Z2/T2.jpg"
+  },
+  {
+    "position": "A017-1-Z2",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-1-Z2/T4.jpg",
+    "sha256": "3ba72d8807a66c95d625fab5040279c2fd35429699c11ba7a72aa07ce0150ac0",
+    "normalized_path": "inputs/raw/A017-1-Z2/T4.jpg"
+  },
+  {
+    "position": "A017-2-2",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-2-2/T1.jpg",
+    "sha256": "f505eae5ff90d893b227a799db7a4a03f77ae99579de0d0794d23eac563b4ce6",
+    "normalized_path": "inputs/raw/A017-2-2/T1.jpg"
+  },
+  {
+    "position": "A017-2-2",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-2-2/T2.jpg",
+    "sha256": "c7bd20c1bebcdeeda3642881e08596a673304b9fde9ff5419ba4139a4473ea24",
+    "normalized_path": "inputs/raw/A017-2-2/T2.jpg"
+  },
+  {
+    "position": "A017-2-2",
+    "period": 3,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-2-2/T3.jpg",
+    "sha256": "e05fd8f27051c17a944b7a245c49ee1db3e479bd7ad896221d6bf099493eade4",
+    "normalized_path": "inputs/raw/A017-2-2/T3.jpg"
+  },
+  {
+    "position": "A017-2-2",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-2-2/T4.jpg",
+    "sha256": "eeeb652ef2805a5b6a54250dbbdf9d5cccbfba4ecf5fd7b9571a099bcbd1081b",
+    "normalized_path": "inputs/raw/A017-2-2/T4.jpg"
+  },
+  {
+    "position": "A017-2-3",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-2-3/T1.jpg",
+    "sha256": "74b5e40077cd8c1eb8bcf4cf49a325ef23fb4eb692c435e03a79d6ed71311d86",
+    "normalized_path": "inputs/raw/A017-2-3/T1.jpg"
+  },
+  {
+    "position": "A017-2-3",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-2-3/T2.jpg",
+    "sha256": "d8c522583788259cd718aeb820befb97f39bf7d7fba39d7d39030b82ac266424",
+    "normalized_path": "inputs/raw/A017-2-3/T2.jpg"
+  },
+  {
+    "position": "A017-2-3",
+    "period": 3,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-2-3/T3.jpg",
+    "sha256": "c348407aa44a345edacbc11e1539c1cfb6c1423923dda84658ddcfb1a6ba37a2",
+    "normalized_path": "inputs/raw/A017-2-3/T3.jpg"
+  },
+  {
+    "position": "A017-2-3",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-2-3/T4.jpg",
+    "sha256": "18087744b15549cf5caae9ec459c3c2753bde1ffadc8b1fb33d55d3c2b309e69",
+    "normalized_path": "inputs/raw/A017-2-3/T4.jpg"
+  },
+  {
+    "position": "A017-3-B3",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-3-B3/T1.jpg",
+    "sha256": "07a9c7df64eff9878803ee5b7a56b7e3632a774b627094f7ce8865203405d8f4",
+    "normalized_path": "inputs/raw/A017-3-B3/T1.jpg"
+  },
+  {
+    "position": "A017-3-B3",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-3-B3/T2.jpg",
+    "sha256": "a82d1188b014fb08f7a27b339fdae80f3220d135072d9fa06cfe8ea72fc3877d",
+    "normalized_path": "inputs/raw/A017-3-B3/T2.jpg"
+  },
+  {
+    "position": "A017-3-B3",
+    "period": 3,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-3-B3/T3.png",
+    "sha256": "a218ed116c5843820ddf5813deb3ef73ab85e6fc5f371c27c7ca3b7993d51dee",
+    "normalized_path": "inputs/raw/A017-3-B3/T3.png"
+  },
+  {
+    "position": "A017-3-B3",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-3-B3/T4.jpg",
+    "sha256": "2a92bfa7ecdc12f8b4cd04798fe3963f3113f2a372d53e03d8bc8ababf0e6af2",
+    "normalized_path": "inputs/raw/A017-3-B3/T4.jpg"
+  },
+  {
+    "position": "A017-3-Z2",
+    "period": 1,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-3-Z2/T1.jpg",
+    "sha256": "664f65f85d539be4febb916f13e5d738f10d1e4e990ce28f2af5ad0d06f36b6f",
+    "normalized_path": "inputs/raw/A017-3-Z2/T1.jpg"
+  },
+  {
+    "position": "A017-3-Z2",
+    "period": 2,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-3-Z2/T2.jpg",
+    "sha256": "18a06dfc4b45de69ad96bf817403a5921bc3894b50c6b48739346964cb37bf28",
+    "normalized_path": "inputs/raw/A017-3-Z2/T2.jpg"
+  },
+  {
+    "position": "A017-3-Z2",
+    "period": 3,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-3-Z2/T3.png",
+    "sha256": "ecb188387de86a302bf8902c2b4c15678e9a03ac71b643b74491a443fbc1c74a",
+    "normalized_path": "inputs/raw/A017-3-Z2/T3.png"
+  },
+  {
+    "position": "A017-3-Z2",
+    "period": 4,
+    "source_archive": "V-.zip",
+    "archive_entry": "V-变化/A017-3-Z2/T4.jpg",
+    "sha256": "c0876765c8853f38edc771438a8694962897bfff12bceaa3e66e827aae731da8",
+    "normalized_path": "inputs/raw/A017-3-Z2/T4.jpg"
+  },
+  {
+    "position": "Q1-1-B2",
+    "period": 1,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-1-B2/T1.png",
+    "sha256": "f9755349f5c11cce2fb53b01aedd7368879beb25c10f5452523f77bfcf320df4",
+    "normalized_path": "inputs/raw/Q1-1-B2/T1.png"
+  },
+  {
+    "position": "Q1-1-B2",
+    "period": 3,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-1-B2/T3.png",
+    "sha256": "3778d77192ca43a78dcf2ac026ee4fe6e6b0fee7af0844d5c65e7dfa919da7b7",
+    "normalized_path": "inputs/raw/Q1-1-B2/T3.png"
+  },
+  {
+    "position": "Q1-1-B2",
+    "period": 4,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-1-B2/T4.jpg",
+    "sha256": "8257e936564213fa48312bd92b9266d87b420a4c6740854cf5d6d8efa3a75f0a",
+    "normalized_path": "inputs/raw/Q1-1-B2/T4.jpg"
+  },
+  {
+    "position": "Q1-1-Z3",
+    "period": 3,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-1-Z3/Q1-1-Z3-成熟.png",
+    "sha256": "593fe1480463e4b7c2eff8f9c84176da4a9b58c1b29ec8143da13fa6855b89ea",
+    "normalized_path": "inputs/raw/Q1-1-Z3/T3.png"
+  },
+  {
+    "position": "Q1-1-Z3",
+    "period": 2,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-1-Z3/Q1-1-Z3-抽穗.png",
+    "sha256": "8c9db1ce0fc18a6c0823410e54e80a8d587e40ac0b6eeca95189f53239cdb2e9",
+    "normalized_path": "inputs/raw/Q1-1-Z3/T2.png"
+  },
+  {
+    "position": "Q1-1-Z3",
+    "period": 1,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-1-Z3/Q1-1-Z3-苗期.jpg",
+    "sha256": "8cca7488a15320e1d5717266959ab9395cc999a61282c599fa1c127e0ce41127",
+    "normalized_path": "inputs/raw/Q1-1-Z3/T1.jpg"
+  },
+  {
+    "position": "Q1-2-B3",
+    "period": 3,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-2-B3/Q1-2-B3-成熟.png",
+    "sha256": "90906dbd343134933ca701609263a2b11c240d4cf49a7b77d67f674b8bd0ad89",
+    "normalized_path": "inputs/raw/Q1-2-B3/T3.png"
+  },
+  {
+    "position": "Q1-2-B3",
+    "period": 2,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-2-B3/Q1-2-B3-抽穗.jpg",
+    "sha256": "75452e757415ef92cc793295161a8a41a1e9b59c9f8cfcc141bb92852b9ee248",
+    "normalized_path": "inputs/raw/Q1-2-B3/T2.jpg"
+  },
+  {
+    "position": "Q1-2-B3",
+    "period": 4,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-2-B3/Q1-2-B3-枯黄.jpg",
+    "sha256": "0e0ead59a5e44fdfbe23617856f554614dca57896b6c93c590a76ab46053c05e",
+    "normalized_path": "inputs/raw/Q1-2-B3/T4.jpg"
+  },
+  {
+    "position": "Q1-2-B3",
+    "period": 1,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-2-B3/Q1-2-B3-苗期.jpg",
+    "sha256": "ffea2b92d8c3634b3c76ee3de0d34ff679ae0868c82213b60da03a70e5c51f5e",
+    "normalized_path": "inputs/raw/Q1-2-B3/T1.jpg"
+  },
+  {
+    "position": "Q1-2-Z2",
+    "period": 1,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-2-Z2/T1.jpg",
+    "sha256": "a49212981a680ba4412f54669c8c9fe5c526db42b550836e74815d4f3927a02d",
+    "normalized_path": "inputs/raw/Q1-2-Z2/T1.jpg"
+  },
+  {
+    "position": "Q1-2-Z2",
+    "period": 3,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-2-Z2/T3.png",
+    "sha256": "0e6a79281e831ed5aeff1bcfb30a6dc7014309ff152a84e25e66fcad148731c6",
+    "normalized_path": "inputs/raw/Q1-2-Z2/T3.png"
+  },
+  {
+    "position": "Q1-2-Z2",
+    "period": 4,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-2-Z2/T4.jpg",
+    "sha256": "b884483197c5aed11b46b046712604822481da8ac338bc7170cb5cc3dc13015c",
+    "normalized_path": "inputs/raw/Q1-2-Z2/T4.jpg"
+  },
+  {
+    "position": "Q1-2-Z3",
+    "period": 1,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-2-Z3/T1.jpg",
+    "sha256": "446069ce3b12001072677d7654018bf83cd93618791c2852037da985107033b5",
+    "normalized_path": "inputs/raw/Q1-2-Z3/T1.jpg"
+  },
+  {
+    "position": "Q1-2-Z3",
+    "period": 2,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-2-Z3/T2.jpg",
+    "sha256": "8cf27d38de6526e56b53f4421b5b1f9017f2ff660bdb048acbf0125619421fe9",
+    "normalized_path": "inputs/raw/Q1-2-Z3/T2.jpg"
+  },
+  {
+    "position": "Q1-2-Z3",
+    "period": 4,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-2-Z3/T4.jpg",
+    "sha256": "65bb62fa0145b634290d50615681567b80cee0e3231b50e59fec6750245576b2",
+    "normalized_path": "inputs/raw/Q1-2-Z3/T4.jpg"
+  },
+  {
+    "position": "Q1-3-Z3",
+    "period": 1,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-3-Z3/T1.jpg",
+    "sha256": "9046fbcb230965d6c0b7372ef394ecf73f5738cae9effd524fcf46e99380cd8a",
+    "normalized_path": "inputs/raw/Q1-3-Z3/T1.jpg"
+  },
+  {
+    "position": "Q1-3-Z3",
+    "period": 2,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-3-Z3/T2.png",
+    "sha256": "add19453dec0d0b30c15933257c3d41084fc587ea24e2403c2feb222cb998ebb",
+    "normalized_path": "inputs/raw/Q1-3-Z3/T2.png"
+  },
+  {
+    "position": "Q1-3-Z3",
+    "period": 3,
+    "source_archive": "Q1.zip",
+    "archive_entry": "Q1-3-Z3/T3.png",
+    "sha256": "3601e81b7b25b46c03ee6fc70cd0b8c561484e21dd30051aec83500768bb4017",
+    "normalized_path": "inputs/raw/Q1-3-Z3/T3.png"
+  }
+]
