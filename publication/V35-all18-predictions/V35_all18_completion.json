@@ -1,0 +1,46 @@
+{
+  "state": "complete",
+  "images": 66,
+  "positions": 18,
+  "missing_observations": [
+    {
+      "position": "A017-1-B2",
+      "period": "T3",
+      "reason": "No source observation supplied"
+    },
+    {
+      "position": "A017-1-Z2",
+      "period": "T3",
+      "reason": "No source observation supplied"
+    },
+    {
+      "position": "Q1-1-B2",
+      "period": "T2",
+      "reason": "No source observation supplied"
+    },
+    {
+      "position": "Q1-1-Z3",
+      "period": "T4",
+      "reason": "No source observation supplied"
+    },
+    {
+      "position": "Q1-2-Z2",
+      "period": "T2",
+      "reason": "No source observation supplied"
+    },
+    {
+      "position": "Q1-2-Z3",
+      "period": "T3",
+      "reason": "No source observation supplied"
+    }
+  ],
+  "classes": "root/background only",
+  "threshold": 0.5,
+  "native_resolution": true,
+  "model_checkpoint": "V35_310_best.pt",
+  "selected_epoch": 32,
+  "training_epochs": 100,
+  "model_SHA256": "43506267181c04ae44a0de280ce9c03839ea05f23468988b0be8e984cd52f940",
+  "no_morphology_or_manual_postprocessing": true,
+  "seconds": 473.88003495200246
+}
