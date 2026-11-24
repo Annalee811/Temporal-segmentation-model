@@ -56,3 +56,14 @@ plus translated training views. All dates at the same window retain their split;
 all dates from this specimen belong to one outer development group. This is an
 internal spatial test, not an independent tube test. Full inference uses256-pixel
 windows,192-pixel stride and Hann blending.
+
+## Cross-tube binary fine-tuning
+
+`finetune_cross_tube.py` adds the uploaded 66 native 500px binary masks to the original training data. It warm-starts the selected V35 U-Net without overwriting its weights, evaluates with disjoint tube groups, and then refits a separate production checkpoint using all submitted masks. All temporal classes are merged into root; the temporal layers are unused. Overlaps with the original validation/test regions are excluded from supervision.
+
+```bash
+python finetune_cross_tube.py --output ../work/V35_cross_tube_v2 --epochs 20 --threads 4
+python infer_cross_tube.py --weights ../work/V35_cross_tube_v2/weights/V35_cross_tube_all_labels.pt --image input.png --output predictions
+```
+
+The `development/best_model.pt` checkpoint has held-out cross-tube metrics. The all-label production checkpoint has seen all new tubes and therefore has no remaining independent cross-tube test. See the versioned release README, data audit, training histories, and metric files for the actual results and label-reference limitations. Original V35 inference continues to use the preserved original checkpoint.

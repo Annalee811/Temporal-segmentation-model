@@ -1,0 +1,50 @@
+{
+  "V35_cross_tube_README.md": {
+    "bytes": 4643,
+    "sha256": "281231ee2d9caefd975cda8de75be8a346d3614488c332387d8c30f43baeb0d8"
+  },
+  "V35_cross_tube_prediction_examples.png": {
+    "bytes": 3239473,
+    "sha256": "4d8d0a9cc49f646ef32f4762486998230621abe6599eea16f764e50875606663"
+  },
+  "V35_cross_tube_model.zip": {
+    "bytes": 93464883,
+    "sha256": "b9f6fc0091566b57bc2bf1bc050b31467a21d8575fe1c50c7a32c941904558b5"
+  },
+  "V35_cross_tube_auc_metrics.csv": {
+    "bytes": 238,
+    "sha256": "86f2522bd716a85d749ba32fd1711c543d8a598c6c9688bd4df1fd10d64fc372"
+  },
+  "V35_cross_tube_prediction_examples.pdf": {
+    "bytes": 9374445,
+    "sha256": "e3e0fccef7a84fe68eda504c8df8c9bbaba2fe770c0368fce3429828d8d242b7"
+  },
+  "V35_cross_tube_training_evaluation.png": {
+    "bytes": 658777,
+    "sha256": "ab9c1ee5f498955cf403ea1d92d0c0d68ca3a0e0ef4e9ae9ffb103eb44867405"
+  },
+  "V35_cross_tube_results.zip": {
+    "bytes": 59538961,
+    "sha256": "6f27fb23a70302d4eb2f89c8510cc3e9b1b8505b26d9337b05aa3c4a4b04874f"
+  },
+  "V35_cross_tube_evaluation_metrics.csv": {
+    "bytes": 1832,
+    "sha256": "b9c50b8ebe61afc78a01ed77c6ad6819d6e0b971ee768baeaea9d59edc974621"
+  },
+  "V35_cross_tube_production_internal_retention_metrics.csv": {
+    "bytes": 333,
+    "sha256": "b2f70b3b1a5c2b504c9b621878d804b4109dae42f8db8dfe5a807bf4a0caf431"
+  },
+  "V35_cross_tube_training_evaluation.pdf": {
+    "bytes": 51455,
+    "sha256": "68391425f106a5039c1dcef296f64c1155899fe0de894a6ab496703d89ffa06a"
+  },
+  "V35_cross_tube_training_evaluation.svg": {
+    "bytes": 124140,
+    "sha256": "f9804dc0815f41be09a81b0f9f393c377e8f8b5a2fac05be42f8574aa92ac2db"
+  },
+  "V35_cross_tube_training_data.zip": {
+    "bytes": 55018987,
+    "sha256": "a9ff5471b70d8f4cf1b1c62b7ce9ef3f80ab2ed1b47ba643e18d3aa750bf3d23"
+  }
+}

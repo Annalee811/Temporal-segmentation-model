@@ -1,0 +1,3 @@
+model,split,ROC_AUC,Average_precision,pixels,root_pixels
+V35_original,cross_tube_test,0.9706830129969392,0.8205535176315795,4500000,102559
+V35_cross_tube_development,cross_tube_test,0.9749301509002466,0.8260168185597481,4500000,102559
