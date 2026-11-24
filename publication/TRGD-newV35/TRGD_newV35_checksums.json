@@ -1,0 +1,186 @@
+{
+  "TRGD_newV35_Q1-1-B2.pdf": {
+    "bytes": 9282219,
+    "sha256": "bfa9b8e007c38f8012412ca15ab8376eae2cd981929e4d95eec6cd56ac997c4b"
+  },
+  "TRGD_newV35_Q1-2-B3.zip": {
+    "bytes": 63300052,
+    "sha256": "cc196bb34ffc58d129e535d5d10e02b808e64b52907479014be0f2be9ad7e6d4"
+  },
+  "TRGD_newV35_README.md": {
+    "bytes": 9134,
+    "sha256": "618d936ddf04e95158a8eaba975d263ae6d37e7256d339d5bf4338d4a0dc7695"
+  },
+  "TRGD_newV35_temporal_prediction_manifest.csv": {
+    "bytes": 36634,
+    "sha256": "3946097e837fa6355b3c954cbafa6c6d90dae771fe90c98d43f90d6889ea75a0"
+  },
+  "TRGD_newV35_A017-3-B3.zip": {
+    "bytes": 55263273,
+    "sha256": "0534496c7ae3323c575fadb237d1ff9d17a11a1c3930126a577200c0333fbc44"
+  },
+  "TRGD_newV35_Q1-1-B2.zip": {
+    "bytes": 14986297,
+    "sha256": "60865f198ef1e8e49522e0c2360ff79543403b7db3ae9b0b5f7a5ddbca4d0493"
+  },
+  "TRGD_newV35_all_two_class_masks.zip": {
+    "bytes": 3187582,
+    "sha256": "104cce7312e3ffc3941af4cc352d5374898807d26b84adb7035b43838e07978c"
+  },
+  "TRGD_newV35_Q1-2-B3.pdf": {
+    "bytes": 41539971,
+    "sha256": "3837574af76a29a08a44a3f00f79f6e332cb95304e1ce5c6de8c9dca065b23f1"
+  },
+  "TRGD_newV35_0353-1-Z2.pdf": {
+    "bytes": 12140422,
+    "sha256": "53468efb83e4ca40ba2e95f755f1153c8d202ebbe0008f32df7752ef072b23c3"
+  },
+  "TRGD_newV35_missing_periods.csv": {
+    "bytes": 374,
+    "sha256": "0a8cc2657b938e77ccce2ee9cf444de42df5fdab7143e6ee4aa24987dd42ea9f"
+  },
+  "TRGD_newV35_A017-2-3.zip": {
+    "bytes": 46469470,
+    "sha256": "00c04b9d76913a6c82a5b6fda3fea59f9111c3c2191a6d6195923bcc0ea00e89"
+  },
+  "TRGD_newV35_preview.png": {
+    "bytes": 799414,
+    "sha256": "997e95b7d5cd06b6503bedac4615dbb44ed2ede69b10b5fe1916573c80969d5f"
+  },
+  "TRGD_newV35_Q1-2-Z2.pdf": {
+    "bytes": 33494828,
+    "sha256": "f7b945667ab4f92bbef4764f7ce394719e61999ba53dbf7495eadba642e8c385"
+  },
+  "TRGD_newV35_A017-1-B2.zip": {
+    "bytes": 41540205,
+    "sha256": "7edadb1ec208e936fc784e1c6eb0d3f03dcd1e3c618cc639012c7439a086cc4e"
+  },
+  "TRGD_newV35_0353-2-LB3.zip": {
+    "bytes": 60972787,
+    "sha256": "bde796a5f1976aaac3cdb41e4d6c5d1e0bf4d1023561a06c41877f96031f25cc"
+  },
+  "TRGD_newV35_Q1-1-Z3.zip": {
+    "bytes": 35032395,
+    "sha256": "a8e696ed9e2461ceff9e8e2a6f1af50c173f67cb21bc1c37685879b728307e39"
+  },
+  "TRGD_newV35_Q1-1-Z3.pdf": {
+    "bytes": 25102340,
+    "sha256": "933d3eb243b484e040ead0d1c00592b875f1fa8f1e0dbdcc0bd44dff62657bbf"
+  },
+  "TRGD_newV35_A017-3-B3.pdf": {
+    "bytes": 37126181,
+    "sha256": "f1a31187d1f29aebb5e1a62162604cfaac6cda31fb3da117ded8a97dd223b882"
+  },
+  "TRGD_newV35_A017-3-Z2.pdf": {
+    "bytes": 40252833,
+    "sha256": "f12638ccb35d7d6ed2e684bf2dbae81fd1f3b4d1df66f65ce7739a386988c201"
+  },
+  "TRGD_newV35_A017-2-3.pdf": {
+    "bytes": 31635686,
+    "sha256": "8c70508cf695cd01f1a11ab2c46ca17c513c677a2594dde8bf3dfdb9b8ea57a7"
+  },
+  "TRGD_newV35_0353-1-B3.zip": {
+    "bytes": 29728572,
+    "sha256": "7c63999d4b194300558729c4466af5f1b63c404bf6866cf107272d1ce3c21659"
+  },
+  "TRGD_newV35_A017-3-Z2.zip": {
+    "bytes": 58371852,
+    "sha256": "3cf7aeb44e0e77999fad034f626ead6ef3a85357d8aeb979946c90da4a7070a0"
+  },
+  "TRGD_newV35_0353-2-B3.zip": {
+    "bytes": 39098194,
+    "sha256": "681aa587dbe950e2d3d8e608c7725a572af8348c0a21ddb82113e55679fbd296"
+  },
+  "TRGD_newV35_0353-3-LB3.zip": {
+    "bytes": 49644376,
+    "sha256": "397b12f5da2690da837e82c42a904a517ac58498d777b14bf10563cb1775418e"
+  },
+  "TRGD_newV35_0353-3-LB3.pdf": {
+    "bytes": 35226846,
+    "sha256": "f444b1933ba247bbecaac4475f988da39f21cc50416514944a16d16b5fa229ff"
+  },
+  "TRGD_newV35_verification.json": {
+    "bytes": 796,
+    "sha256": "9149c4b79630ff5e5539dbfd3ba7670bd22c30cbd4777fe688d17215415cbbb8"
+  },
+  "TRGD_newV35_completion.json": {
+    "bytes": 1279,
+    "sha256": "816980b495fcb0f46f49fd1bdeb43bac1f748a58a9dfbd00d437ddef6434dfb3"
+  },
+  "TRGD_newV35_all_predictions_overview.pdf": {
+    "bytes": 41690322,
+    "sha256": "8cde292329adaf703f065d985166e4c45eb85e2b982747fca7454842a603cb1d"
+  },
+  "TRGD_newV35_0353-2-LB2.zip": {
+    "bytes": 59271083,
+    "sha256": "f0ee9607f73cf3fc46b464cbd02084ad17a6bc2abe077d06b4e9ceb86a13232c"
+  },
+  "TRGD_newV35_0353-3-LB2.zip": {
+    "bytes": 25338191,
+    "sha256": "f6a0ea1c4ff106317c5cd8fb3062bef76b3dc9adc98a36635373c2450cba9acb"
+  },
+  "TRGD_newV35_model_README.md": {
+    "bytes": 2224,
+    "sha256": "6da52cbffe1bd8aa67ebe65c0b1fcbf818d6de1d5ffeae80bba25a7912b9f2d1"
+  },
+  "TRGD_newV35_A017-1-Z2.pdf": {
+    "bytes": 9066744,
+    "sha256": "6876b9166d2ecb9047b2b9e5cb6bab994c8ebcc7df697917a7101e5c76cd6f7d"
+  },
+  "TRGD_newV35_Q1-2-Z3.zip": {
+    "bytes": 57047051,
+    "sha256": "7f2c3e14e3b3cd3b08938ef3f2719ceb2c80148b3f5d0ba6eb8d346ceeedd0a3"
+  },
+  "TRGD_newV35_0353-2-LB3.pdf": {
+    "bytes": 42276130,
+    "sha256": "f0f6d47a5c0b1ea138d14e3d82fe6aae28b5590d674504088d67a4a468610d52"
+  },
+  "TRGD_newV35_A017-2-2.zip": {
+    "bytes": 40381594,
+    "sha256": "f982bdf43ee1d77cc52cdf3066ef7ac3ead7a4f0bf8acce955f2262524a2e947"
+  },
+  "TRGD_newV35_A017-2-2.pdf": {
+    "bytes": 27969791,
+    "sha256": "8d8ce64b8f3570cf43e3c93a4ebffe341612e1d6d92a0150c109b94f444ef8b9"
+  },
+  "TRGD_newV35_0353-3-LB2.pdf": {
+    "bytes": 18265610,
+    "sha256": "1e3c3bbf7b2b1b7a6f33867a5f7de659b0577a88d53f09a017eb0fe54b5e55f8"
+  },
+  "TRGD_newV35_0353-2-LB2.pdf": {
+    "bytes": 41078976,
+    "sha256": "6e8adaf7d85890524f537bf38b66dd6d3a6c18ac9c8b56951a792f1d705081a1"
+  },
+  "TRGD_newV35_0353-1-B3.pdf": {
+    "bytes": 20379944,
+    "sha256": "7654742a287ef6529c58698268ea3f0687775b140a1130aa3220ea096a4c08fd"
+  },
+  "TRGD_newV35_Q1-2-Z3.pdf": {
+    "bytes": 35170854,
+    "sha256": "9b3bb6aac1678d6a00ab82f0da993e14f89d7d5a1399ff0af79507acb2c08d73"
+  },
+  "TRGD_newV35_A017-1-B2.pdf": {
+    "bytes": 28256311,
+    "sha256": "efd14c4f4891906b07a75b2b31f01305c5a0ddc756c4bd5bda22802b1ec8b40f"
+  },
+  "TRGD_newV35_model_runtime.zip": {
+    "bytes": 47106589,
+    "sha256": "c340a34af638eae4415de727aef0c25277c586a3dec887009696df94bbac02db"
+  },
+  "TRGD_newV35_A017-1-Z2.zip": {
+    "bytes": 12913557,
+    "sha256": "67f0c975678dbb392f5df15da766b4fc88d4a352cc0196cdea4d8036ef0858f2"
+  },
+  "TRGD_newV35_Q1-2-Z2.zip": {
+    "bytes": 48528325,
+    "sha256": "44580f29509cb80dd0b6fc9162d27f84875efe3afc1590dbf9044ff95f54871d"
+  },
+  "TRGD_newV35_0353-1-Z2.zip": {
+    "bytes": 17081449,
+    "sha256": "707f98fa0db6f3aaa4c3bdedad5cdb903eaab4d77a613e12853e481907a2998c"
+  },
+  "TRGD_newV35_0353-2-B3.pdf": {
+    "bytes": 26301459,
+    "sha256": "b185bbcfbfcb944eeb2366a8c4a498635873c3a410c43d077bd40cfca774e56d"
+  }
+}

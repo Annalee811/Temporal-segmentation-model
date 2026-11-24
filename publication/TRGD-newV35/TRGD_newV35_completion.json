@@ -1,0 +1,29 @@
+{
+  "state": "complete",
+  "positions": 18,
+  "images": 66,
+  "source": "common fields only",
+  "missing_periods": "absent from inference; blank in four-slot figures",
+  "classes": {
+    "0": "background",
+    "1": "existing_root",
+    "2": "new_root"
+  },
+  "T1": "existing-root baseline reference",
+  "binary_model": "V35 310-image fixed100-epoch run, selected epoch32",
+  "foreground_equal_latest_V35": true,
+  "foreground_added_pixels": 0,
+  "foreground_removed_pixels": 0,
+  "temporal_weights_retrained": false,
+  "temporal_interface": "existing V90 pretrained transfer adapter",
+  "known_preprocessing_departures": [
+    "Reconstructed skeleton node partition and neighbor selection",
+    "Nearest-junction pixel-degree proxy replaces one unrecovered geometric cue",
+    "Original archived dense local-correction prepass omitted; starts with frozen V66 priors"
+  ],
+  "weights_SHA256": {
+    "weights/V90_joint_best.pt": "721e6c55e9522dfab54912bc70eee64e2460f364f7fbfba9c88e4996ad0d152a",
+    "upstream/03_temporal_V66/assets/weights/unet/best_temporal_head.pt": "794948f4a77075249678095546348d26fb359780669727643724ebca96a3001b",
+    "upstream/02_root_background/assets/weights/unet/best_model.pt": "43506267181c04ae44a0de280ce9c03839ea05f23468988b0be8e984cd52f940"
+  }
+}
