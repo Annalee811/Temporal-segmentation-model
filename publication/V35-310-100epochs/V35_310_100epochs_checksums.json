@@ -1,0 +1,70 @@
+{
+  "V35_310_100epochs_examples.png": {
+    "bytes": 2342880,
+    "sha256": "52ad69a1ced6f826535a55d5c2f49fe8c579e137eba04618020f67352f49903a"
+  },
+  "V35_310_100epochs_selection.json": {
+    "bytes": 175,
+    "sha256": "8c6726a333dd26d452c1cde8c6b4fc67e4f91abe568e147bdc1afa19a20b8832"
+  },
+  "V35_310_100epochs_dataset.zip": {
+    "bytes": 55018264,
+    "sha256": "8058e1e84dd09e39af9058097d41df79eb66cb8dea5ed3600ff233dd8a4bf9b7"
+  },
+  "V35_310_100epochs_training.png": {
+    "bytes": 858852,
+    "sha256": "fff2c5df00d3e07a3db28a502615b12b3cc62938a3923d0ab2df34629a7069e4"
+  },
+  "V35_310_100epochs_examples.pdf": {
+    "bytes": 6479106,
+    "sha256": "82d322f8d46974d04ff5a154f7ee09c96f84556e6ebe6a15e80410c997ab549a"
+  },
+  "V35_310_100epochs_results.zip": {
+    "bytes": 9682253,
+    "sha256": "91f49e339df824d5ba01e847b5eff46d4fec516bc14f8458d9613003c2eeaea5"
+  },
+  "V35_310_100epochs_history.csv": {
+    "bytes": 25049,
+    "sha256": "7ff58d246e539371c2b829cf67dba5f4d9b6ac05cae93f87661ec815f19a26d9"
+  },
+  "V35_310_100epochs_epoch100_model.zip": {
+    "bytes": 47293843,
+    "sha256": "90768d4b8afc4e4c55f2cef2ce5212cb0ae7a1aa6cc2b1dffa51dbd2244714ec"
+  },
+  "V35_310_100epochs_final_validation_metrics.csv": {
+    "bytes": 543,
+    "sha256": "ad27adbf9e085d195a2b88cca037b51fe54fd621e2e0a6981625d24d66e60a1f"
+  },
+  "V35_310_100epochs_completion.json": {
+    "bytes": 652,
+    "sha256": "16b67fbf94969a17a3e72dc7ea9a718e2772eacee9a59915b48343fc07fba145"
+  },
+  "V35_310_100epochs_data_audit.json": {
+    "bytes": 1239,
+    "sha256": "9511112e6215e1ddbe9399f7d65b6868b22391f0160dd7ce2a18f8581d249ec2"
+  },
+  "V35_310_100epochs_training.pdf": {
+    "bytes": 55344,
+    "sha256": "d48ad5c67eb2aa69fbbb5e8735f814c02214b0cd237be52cc0800623d491c9f1"
+  },
+  "V35_310_100epochs_training.svg": {
+    "bytes": 137854,
+    "sha256": "b1be1d0a102a04c9c89fd8ede04a650b917d7de2430dd944859525b0091141b6"
+  },
+  "V35_310_100epochs_protocol.json": {
+    "bytes": 1763,
+    "sha256": "9b8ff58cb8b986676a1bd713f1ced237c0b67e0357ae9d59f630b7665b62adb2"
+  },
+  "V35_310_100epochs_README.md": {
+    "bytes": 4880,
+    "sha256": "0cd276cca942dedb867aecf1fb310cb5acda3093691f61f7a8be24a28587d070"
+  },
+  "V35_310_100epochs_best_model.zip": {
+    "bytes": 93708072,
+    "sha256": "960f7705730788a3c572eaad78ba88ae733c42246f39e615bf07cac42057ac89"
+  },
+  "V35_310_100epochs_validation_auc.csv": {
+    "bytes": 366,
+    "sha256": "e9d0690d87f49708211e123c879d5d6e6c3643309674cef7f4264535a5eeac16"
+  }
+}

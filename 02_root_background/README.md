@@ -67,3 +67,12 @@ python infer_cross_tube.py --weights ../work/V35_cross_tube_v2/weights/V35_cross
 ```
 
 The `development/best_model.pt` checkpoint has held-out cross-tube metrics. The all-label production checkpoint has seen all new tubes and therefore has no remaining independent cross-tube test. See the versioned release README, data audit, training histories, and metric files for the actual results and label-reference limitations. Original V35 inference continues to use the preserved original checkpoint.
+
+## Merged 310-image, fixed 100-epoch experiment
+
+The revised experiment merges all 244 original images and all 66 submitted binary masks, discards the old split and creates 248 training / 62 internal-validation images. All spatially overlapping crops, translations and dates share a split group. No independent tube test is performed. The user explicitly selected warm-starting from the original V35 epoch77 checkpoint. All 100 epochs run without early stopping; the best validation checkpoint and actual epoch100 checkpoint are both retained alongside the unchanged original weights. These are internal training-validation results: pretrained weights historically saw some of the repartitioned old images.
+
+```bash
+python train_merged_310.py --output ../work/V35_310_100epochs --epochs 100 --threads 4
+python infer_cross_tube.py --weights ../work/V35_310_100epochs/weights/V35_310_best.pt --image input.png --output predictions
+```

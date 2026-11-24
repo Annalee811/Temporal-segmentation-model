@@ -1,0 +1,6 @@
+{
+  "best_epoch": 32,
+  "validation_Dice": 0.8851163870904654,
+  "threshold": 0.5,
+  "checkpoint_SHA256": "43506267181c04ae44a0de280ce9c03839ea05f23468988b0be8e984cd52f940"
+}

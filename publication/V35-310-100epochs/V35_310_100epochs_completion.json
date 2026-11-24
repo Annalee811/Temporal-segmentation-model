@@ -1,0 +1,17 @@
+{
+  "state": "complete",
+  "epochs": 100,
+  "early_stopping": false,
+  "images": 310,
+  "train": 248,
+  "val": 62,
+  "test": 0,
+  "independent_validation": false,
+  "selected_epoch": 32,
+  "selected_validation_Dice": 0.8851163870904654,
+  "original_weights_preserved": true,
+  "original_weights_SHA256": "2294f0002da52fc1636b01bed50e527015b597c0a7506c1eb7e38cd99635bd21",
+  "best_weights_SHA256": "43506267181c04ae44a0de280ce9c03839ea05f23468988b0be8e984cd52f940",
+  "epoch100_weights_SHA256": "aa35d8cfb17802cd2543611f9c7bc19e7b54b777af460707ca42b0e1fc4e523a",
+  "manifest_SHA256": "8573ac4e3ed002fc1d95f04bc28b1ecbecfccd728d2af88f083be6ccc61141ba"
+}

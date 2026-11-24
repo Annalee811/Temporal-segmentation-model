@@ -1,0 +1,4 @@
+model,split,ROC_AUC,Average_precision,valid_pixels,root_pixels,independent_validation
+Original V35,internal_validation,0.9912058492203405,0.9379651072732932,6645728,249547,False
+Best validation,internal_validation,0.9943564269541134,0.9436129121469697,6645728,249547,False
+Epoch 100,internal_validation,0.9947466490029753,0.9436821357553525,6645728,249547,False

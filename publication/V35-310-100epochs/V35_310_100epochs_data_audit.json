@@ -1,0 +1,33 @@
+{
+  "images": 310,
+  "original_images": 244,
+  "submitted_images": 66,
+  "split": "248 train / 62 validation; no test split",
+  "source_counts": {
+    "original_244": {
+      "train": 196,
+      "val": 48
+    },
+    "submitted_66": {
+      "train": 52,
+      "val": 14
+    }
+  },
+  "groups": 48,
+  "split_seed": 20261124,
+  "group_rule": "Connected components of spatially overlapping windows at the same observation position, across all dates and translated variants; no overlapping native pixels across train and validation",
+  "new_binary_labels_restored_from_uploaded_JSON": true,
+  "old_validation_test_splits_discarded": true,
+  "old_holdout_ignore_guard_removed": true,
+  "original_weights_SHA256": "2294f0002da52fc1636b01bed50e527015b597c0a7506c1eb7e38cd99635bd21",
+  "annotation_SHA256": "4126c195b8062eb7c35777f70af52d881ca8fd111a8dded448957d30def04c9e",
+  "classes": {
+    "0": "background",
+    "255": "all roots",
+    "128": "ignore annotation only"
+  },
+  "temporal_layers_used": false,
+  "manifest_SHA256": "8573ac4e3ed002fc1d95f04bc28b1ecbecfccd728d2af88f083be6ccc61141ba",
+  "new_reference": "User submitted prediction-initialized edited masks; unchanged regions retained as provided",
+  "independent_validation": false
+}
