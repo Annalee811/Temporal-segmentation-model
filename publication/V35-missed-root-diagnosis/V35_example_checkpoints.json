@@ -1,0 +1,32 @@
+[
+  {
+    "model": "original77",
+    "input": "500px annotated ROI",
+    "TP": 1792,
+    "FP": 286,
+    "FN": 2361,
+    "Precision": 0.8623676612127045,
+    "Recall": 0.431495304599085,
+    "Dice": 0.5751885732627187
+  },
+  {
+    "model": "best32",
+    "input": "500px annotated ROI",
+    "TP": 2027,
+    "FP": 545,
+    "FN": 2126,
+    "Precision": 0.7881026438569206,
+    "Recall": 0.48808090536961235,
+    "Dice": 0.6028252788104089
+  },
+  {
+    "model": "epoch100",
+    "input": "500px annotated ROI",
+    "TP": 2003,
+    "FP": 479,
+    "FN": 2150,
+    "Precision": 0.8070104754230459,
+    "Recall": 0.48230195039730317,
+    "Dice": 0.6037678975131876
+  }
+]
