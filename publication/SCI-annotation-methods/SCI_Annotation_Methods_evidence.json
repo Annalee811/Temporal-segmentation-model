@@ -1,0 +1,38 @@
+{
+  "source_files": 310,
+  "original_files": 244,
+  "additional_files": 66,
+  "total_patches": 1240,
+  "training_patches": 1048,
+  "development_monitoring_patches": 192,
+  "training_parents": 262,
+  "monitoring_parents": 48,
+  "spatial_groups": 48,
+  "training_groups": 41,
+  "monitoring_groups": 7,
+  "additional_germplasm_counts": {
+    "0353": 24,
+    "A017": 22,
+    "Q1": 20
+  },
+  "additional_time_counts": {
+    "T1": 18,
+    "T2": 16,
+    "T3": 15,
+    "T4": 17
+  },
+  "all_additional_files_in_training": true,
+  "monitoring_parents_with_prior_gradient_training_exposure": 44,
+  "independent_test": false,
+  "seed": 20261125,
+  "initialization_checkpoint": "V35_310_best.pt selected at epoch32 in prior100epoch run",
+  "annotation_source_file": "work/V35_full250_all66/uploaded_annotation.json",
+  "annotation_source_SHA256": "4126c195b8062eb7c35777f70af52d881ca8fd111a8dded448957d30def04c9e",
+  "manifest_SHA256": "b228572cd7de60be03e3d40533c31fe3b8adee439114498117c269a23b71421d",
+  "unreported_because_not_documented": [
+    "annotator identities or number",
+    "annotation hours",
+    "inter-observer agreement",
+    "independent annotation audit"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "SCI_Annotation_Methods_CN.md": {
+    "bytes": 7241,
+    "sha256": "e0dc61a3a7ce49ed2881b2ac4cf371b6c1aaa7d8095935b373aec1511b0c5d51"
+  },
+  "SCI_Annotation_Methods_EN.md": {
+    "bytes": 8753,
+    "sha256": "6bcc4816777f81d45b55db4e794f67c4271f8816e4d08694f7c0377b12ba2c0a"
+  },
+  "SCI_Annotation_Methods_EN.pdf": {
+    "bytes": 89027,
+    "sha256": "d30e3533b0f53df1b106a47e015d388ad5ecf28e7780a16abd9a41d8af89e574"
+  },
+  "SCI_Annotation_Methods_README.md": {
+    "bytes": 1226,
+    "sha256": "e5d70fa79b0dce70c63819fb11eb5ca61ccfc06e774d49f61b41c2f3361e41d0"
+  },
+  "SCI_Annotation_Methods_bilingual.docx": {
+    "bytes": 44068,
+    "sha256": "e8e30af0774a72f527c66540c383744cf7ced6fc102f27dfbe07edf13fe863cc"
+  },
+  "SCI_Annotation_Methods_bundle.zip": {
+    "bytes": 136614,
+    "sha256": "e8028e7ee56382ae548e4dca11929effddbf15faaeb2d7027e0e1aa7f8aec717"
+  },
+  "SCI_Annotation_Methods_evidence.json": {
+    "bytes": 1167,
+    "sha256": "6ef3cd9407ebb300c60d8034db5cf376e21a9f17dfe6fb67c9861cffd1a9d308"
+  },
+  "SCI_Annotation_Methods_references.bib": {
+    "bytes": 1300,
+    "sha256": "60da06175d8e22889d6c36c5f8ebdfcc9b34a2cf61febe6a9960c9212d361b32"
+  }
+}
