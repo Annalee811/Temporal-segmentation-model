@@ -1,0 +1,34 @@
+{
+  "V35_context_README.md": {
+    "bytes": 1860,
+    "sha256": "f99977c987761ce29d81face9a7dad3652dac06a184cc6d88ffb0c07cafeeec3"
+  },
+  "V35_context_canonical_V35.png": {
+    "bytes": 480077,
+    "sha256": "9b793140df6407f98f30aa15b5d90bae82d82220144a21d6b4b2fe396b29c4a3"
+  },
+  "V35_context_diagnosis.json": {
+    "bytes": 1486,
+    "sha256": "feac6fc0da05a6ab98c95def4aeed1605a77fa02e2336569209ecf4ab2ed1c41"
+  },
+  "V35_context_canonical_V90.png": {
+    "bytes": 479292,
+    "sha256": "9b7e6de7fe3c64ae3bb8af4384c8ee1fe0de2154b85724652493d33cc788000f"
+  },
+  "V35_context_canonical_ROI.zip": {
+    "bytes": 1446212,
+    "sha256": "4b152c08251d06ddbef5ce14ae09623723fd8487c13f4e5b2c95b5807bede8e2"
+  },
+  "V35_context_comparison.png": {
+    "bytes": 552145,
+    "sha256": "94014d686bb070c79cf4949bfb888e6fd4c530c7232d8e88f584b791c44907ea"
+  },
+  "V35_context_comparison.pdf": {
+    "bytes": 2047141,
+    "sha256": "c4f55557de1d5443aa82be95338ed9b48d43672f9e4f40f5fc874a27659227e2"
+  },
+  "V35_context_RGB.png": {
+    "bytes": 476630,
+    "sha256": "a6be59d9839f1f770d81ad5f84abfede8633a16d061c966854bc63064df7dc5a"
+  }
+}

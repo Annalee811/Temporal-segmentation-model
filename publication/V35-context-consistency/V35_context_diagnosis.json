@@ -1,0 +1,44 @@
+{
+  "position": "0353-1-B3",
+  "period": "T1",
+  "crop_xywh": [
+    1870,
+    12,
+    500,
+    500
+  ],
+  "identical_RGB_pixels": true,
+  "identical_weights_SHA256": "9c490fdb98436a352e6b00d4444091e33475f29fa135170edfd56cea823fb139",
+  "checkpoint_epoch": 91,
+  "threshold": 0.5,
+  "inference_window": 250,
+  "inference_stride": 188,
+  "fresh500_inference_equals_published500_mask": true,
+  "V90_foreground_equals_full_field_V35_within_crop": true,
+  "V90_vs_full_field_V35_different_pixels": 0,
+  "crop_vs_full_field_different_pixels": 1068,
+  "only_in_crop_prediction": 985,
+  "only_in_full_field_prediction": 83,
+  "prediction_stats": {
+    "full_field_then_crop": {
+      "root_pixels": 2862,
+      "TP": 2173,
+      "FP": 689,
+      "FN": 1980,
+      "Recall": 0.5232362147844931,
+      "Precision": 0.7592592592592593,
+      "Dice": 0.6195295794725588
+    },
+    "crop500_then_predict": {
+      "root_pixels": 3764,
+      "TP": 2474,
+      "FP": 1290,
+      "FN": 1679,
+      "Recall": 0.5957139417288707,
+      "Precision": 0.657279489904357,
+      "Dice": 0.6249842111911077
+    }
+  },
+  "explanation": "Different sliding-window origins and image context; patch-wise GroupNorm statistics and network boundary context affect probabilities before the same0.5threshold. V90 did not delete binary foreground.",
+  "canonical_rule": "Predict the entire registered common field once; crop RGB, probabilities, binary masks and temporal labels from that same result for all previews."
+}
