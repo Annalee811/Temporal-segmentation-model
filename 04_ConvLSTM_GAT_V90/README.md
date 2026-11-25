@@ -102,17 +102,19 @@ contains the development run for 0353-2-B3; assessment on other tubes
 requires their prepared predictions and annotations.
 
 
-## Latest V35 foreground for common-field temporal prediction
+## Latest full250 V35 foreground for common-field temporal prediction
 
-The current common-field pipeline replaces the previous V35 epoch77 foreground with `V35_310_best.pt`: the validation-selected epoch32 checkpoint from the fixed100-epoch,310-image binary run. The previous V35 checkpoint is preserved. V66 epoch37 and the V90/TRGD ConvLSTM/GAT and continuation weights remain frozen. Temporal features, priors, graph geometry, root axes and junction states are recomputed from the updated binary support.
+The current binary input is `V35_full250_best.pt`, selected at epoch91 after completing100 training epochs on1240 native250px crops from310 source images. All66 supplemental source images /264 quadrants were training data. The1048 training crops were visited in every epoch. Earlier V35 weights remain preserved. V66 epoch37 and V90 ConvLSTM/GAT epoch78 temporal/graph weights remain frozen.
 
 ```bash
-python 04_ConvLSTM_GAT_V90/run.py infer \
-  --common-source work/V35_four_period_common \
-  --transfer-runtime work/V90_latest_V35/runtime \
-  --output work/V90_latest_V35
+python 02_root_background/predict_full250_common.py
+python 04_ConvLSTM_GAT_V90/predict_latest_common.py
+# Or explicitly bind the new common-field input to the versioned runtime:
+python 04_ConvLSTM_GAT_V90/run.py infer --common-source work/V35_full250_common66 --transfer-runtime work/V90_full250_common66/runtime --output work/V90_full250_common66
 ```
 
-The versioned runtime bundle supplies the updated binary checkpoint and the frozen temporal/graph checkpoints. `pipeline_config.json` binds input hashes, foreground hashes and all three model hashes. Each final temporal foreground must equal the new V35 mask pixel-for-pixel; a mismatch stops export. The only exported root labels are1=existing root and2=new root, with0=background. T1 visible roots form the existing-root reference baseline. Missing dates remain absent from inference and blank in four-period figures; changes after a gap refer to the previous observed date.
+The versioned runtime bundle supplies the selected V35 binary checkpoint,250px inference window and188px stride, and the frozen temporal checkpoints. Binary probabilities, V66 temporal priors, graphs, root-axis constraints and junction assignments are recomputed for all18 common fields /66 observed images. Pipeline configuration binds input hashes and all three model hashes. Export fails if any temporal foreground differs from the updated V35 mask.
 
-This new-field path uses the existing V90 pretrained transfer interface. Its reconstructed skeleton partition/neighbors and nearest-junction degree cue differ from the original tensor-bound preprocessing, and it does not include the unreleased dense local-correction prepass. These differences remain recorded in output provenance. The original `run.py infer` command remains the frozen original-input reproduction path; its numerical reference scores are not assigned to these new-field predictions.
+Outputs contain only0=background,1=existing root and2=new root. Extension and persistence merge into existing root. T1 visible roots form the existing reference baseline. Missing observations stay absent from inference and blank in four-period figures; changes after a gap refer to the previous observed date. The original common RGB bytes, geometry and pixel grids remain unchanged.
+
+This uses the existing V90 pretrained transfer interface. Reconstructed skeleton partition/neighbors and a nearest-junction degree cue differ from original tensor-bound preprocessing, and the unreleased dense local-correction prepass is absent. These departures remain in output provenance; no historical temporal score is assigned to these new predictions. The original tensor-bound reproduction remains available without `--common-source`.

@@ -10,7 +10,7 @@ def main():
     p.add_argument('--legacy-three-class', action='store_true', help='Export three-class structural predictions')
     p.add_argument('--ablation', choices=['no-temporal-memory', 'no-gat'])
     p.add_argument('--common-source', type=Path, help='Latest V35 common-field run; uses the updated foreground and V90 transfer inference')
-    p.add_argument('--transfer-runtime', type=Path, default=HERE.parent/'work/V90_latest_V35/runtime')
+    p.add_argument('--transfer-runtime', type=Path, default=HERE.parent/'work/V90_full250_common66/runtime')
     a=p.parse_args()
     if a.common_source is not None:
         if a.mode != 'infer' or a.ablation or a.legacy_three_class:
