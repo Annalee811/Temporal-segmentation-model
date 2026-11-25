@@ -1,0 +1,23 @@
+{
+  "state": "complete",
+  "epochs": 100,
+  "early_stopping": false,
+  "source_images": 310,
+  "patches": 1240,
+  "train_patches": 1048,
+  "val_patches": 192,
+  "supplemental_training_parents": 66,
+  "supplemental_training_patches": 264,
+  "supplemental_validation_parents": 0,
+  "full_training_patch_coverage_every_epoch": true,
+  "source_pixels_discarded": 0,
+  "selected_epoch": 91,
+  "best_weights_SHA256": "9c490fdb98436a352e6b00d4444091e33475f29fa135170edfd56cea823fb139",
+  "epoch100_weights_SHA256": "56aa6480843f3b9dc60b485660d431db1cb02cd4a35bcdac6531dc16e5ba768a",
+  "preserved_weights_SHA256": {
+    "V35_original_epoch77.pt": "2294f0002da52fc1636b01bed50e527015b597c0a7506c1eb7e38cd99635bd21",
+    "V35_310_best.pt": "43506267181c04ae44a0de280ce9c03839ea05f23468988b0be8e984cd52f940",
+    "V35_310_epoch100.pt": "aa35d8cfb17802cd2543611f9c7bc19e7b54b777af460707ca42b0e1fc4e523a"
+  },
+  "independent_test": false
+}

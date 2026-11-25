@@ -1,0 +1,54 @@
+{
+  "source_images": 310,
+  "original_images": 244,
+  "submitted_images": 66,
+  "patches": 1240,
+  "original_patches": 976,
+  "submitted_patches": 264,
+  "patch_shape": [
+    250,
+    250
+  ],
+  "resizing": false,
+  "source_pixels_discarded": 0,
+  "annotated_root_pixels_discarded": 0,
+  "all_parent_pixels_covered": true,
+  "train_parents": 262,
+  "val_parents": 48,
+  "train_patches": 1048,
+  "val_patches": 192,
+  "all_supplemental_images_in_training": true,
+  "supplemental_training_parents": 66,
+  "supplemental_training_patches": 264,
+  "supplemental_validation_images": 0,
+  "source_splits": {
+    "original_244": {
+      "train": 784,
+      "val": 192
+    },
+    "submitted_66": {
+      "train": 264
+    }
+  },
+  "train_val_group_overlap": false,
+  "seed": 20261125,
+  "independent_test": false,
+  "split_rule": "Force every group containing a supplemental image into training; select48old-only parent images by intact spatial groups for internal validation; dates and child crops inherit group split",
+  "old_256_rule": "Four native 250px corners at offsets 0 and 6; overlapping; no discarded borders",
+  "new_500_rule": "Four native disjoint 250px quadrants at offsets 0 and 250",
+  "original_weights_preserved": {
+    "V35_original_epoch77.pt": "2294f0002da52fc1636b01bed50e527015b597c0a7506c1eb7e38cd99635bd21",
+    "V35_310_best.pt": "43506267181c04ae44a0de280ce9c03839ea05f23468988b0be8e984cd52f940",
+    "V35_310_epoch100.pt": "aa35d8cfb17802cd2543611f9c7bc19e7b54b777af460707ca42b0e1fc4e523a"
+  },
+  "initialization": "V35_310_best.pt",
+  "mask_codes": {
+    "0": "background",
+    "255": "all roots",
+    "128": "existing annotation ignore"
+  },
+  "manifest_SHA256": "b228572cd7de60be03e3d40533c31fe3b8adee439114498117c269a23b71421d",
+  "parents_SHA256": "0db6f227a131c26a90d962565def615259077b25b3bf1990b38d4de9e7cb30fb",
+  "annotation_SHA256": "4126c195b8062eb7c35777f70af52d881ca8fd111a8dded448957d30def04c9e",
+  "validation_caveat": "Internal validation only. Warm-start weights have historical exposure to source images. Old 256px corner patches overlap; validation must be reassembled and counted once per parent pixel."
+}
