@@ -1,26 +1,27 @@
 {
-  "version": "TRGD-V90-saved-V35-500-v3",
-  "entry_point": "predict_saved_v35.py",
-  "input": "Already registered provided500x500RGBs",
-  "input_images": 66,
+  "version": "TRGD-V90-fixed-V35-native-v4",
+  "input": "Complete already matched common-field RGBs at native dimensions",
   "positions": 18,
-  "foreground_provider": "V35 saved prediction masks selected by user",
-  "foreground_source_zip_SHA256": "94e53fe10e965e6b02405765928383239e39396525b3a56756b2ff9db7d6ced3",
-  "foreground_policy": "Use exact saved masks; V90 assigns temporal labels within existing foreground only",
+  "images": 66,
+  "foreground_provider": "Saved V35 prediction for the exact same native RGB",
+  "foreground_policy": "V90 temporal labels inherit the complete V35 foreground unchanged",
+  "fresh_inference_entry": "predict_latest_common.py --source <prepared_V35_predictions> --runtime <runtime> --output <new_output>",
+  "verified_reuse_entry": "reuse_matched_native.py",
+  "binary_selected_epoch": 91,
+  "binary_window": 250,
+  "binary_stride": 188,
   "RGB_resizing": false,
-  "RGB_registration": false,
-  "RGB_cropping": false,
-  "binary_weights_selected_epoch": 91,
-  "binary_weights_training_epochs": 100,
-  "classes": {
-    "0": "background",
-    "1": "existing_root",
-    "2": "new_root"
-  },
+  "RGB_re_registration": false,
+  "RGB_re_cropping": false,
   "weights_SHA256": {
     "weights/V90_joint_best.pt": "721e6c55e9522dfab54912bc70eee64e2460f364f7fbfba9c88e4996ad0d152a",
     "upstream/03_temporal_V66/assets/weights/unet/best_temporal_head.pt": "794948f4a77075249678095546348d26fb359780669727643724ebca96a3001b",
     "upstream/02_root_background/assets/weights/unet/best_model.pt": "9c490fdb98436a352e6b00d4444091e33475f29fa135170edfd56cea823fb139"
+  },
+  "classes": {
+    "0": "background",
+    "1": "existing_root",
+    "2": "new_root"
   },
   "known_preprocessing_departures": [
     "Reconstructed skeleton node partition and neighbor selection",

@@ -1,0 +1,29 @@
+{
+  "state": "complete",
+  "positions": 18,
+  "images": 66,
+  "missing_periods": 6,
+  "native_input_sizes_preserved": true,
+  "RGB_re_registered": false,
+  "RGB_re_cropped": false,
+  "RGB_resized": false,
+  "foreground_difference_pixels": 0,
+  "foreground_provider": "V35 prediction on the same complete matched input RGB",
+  "execution": "Verified cache reuse; no new neural forward was required for identical inputs and weights",
+  "weights_SHA256": {
+    "weights/V90_joint_best.pt": "721e6c55e9522dfab54912bc70eee64e2460f364f7fbfba9c88e4996ad0d152a",
+    "upstream/03_temporal_V66/assets/weights/unet/best_temporal_head.pt": "794948f4a77075249678095546348d26fb359780669727643724ebca96a3001b",
+    "upstream/02_root_background/assets/weights/unet/best_model.pt": "9c490fdb98436a352e6b00d4444091e33475f29fa135170edfd56cea823fb139"
+  },
+  "classes": {
+    "0": "background",
+    "1": "existing_root",
+    "2": "new_root"
+  },
+  "temporal_interface": "existing V90 pretrained transfer adapter",
+  "known_preprocessing_departures": [
+    "Reconstructed skeleton node partition and neighbor selection",
+    "Nearest-junction pixel-degree proxy replaces one unrecovered geometric cue",
+    "Original archived dense local-correction prepass omitted; starts with frozen V66 priors"
+  ]
+}

@@ -102,7 +102,7 @@ contains the development run for 0353-2-B3; assessment on other tubes
 requires their prepared predictions and annotations.
 
 
-## Current input contract: preserve the selected V35 masks
+## 500px reference batch: preserve the selected V35 masks
 
 The current entry uses the already registered66 input RGB images (500×500) and the exact masks in the user-selected `V35_full250_all66_supplemental_predictions.zip`. V35 is the sole root/background provider. V90 assigns existing/new labels only inside these fixed root pixels. No new registration, cropping, resizing or observation-field extraction is performed.
 
@@ -117,3 +117,15 @@ Input RGB hashes and V35 mask ZIP members are bound in the manifest. Soft V35 pr
 Final classes are0=background,1=existing root,2=new root; extension and persistence merge into existing root. T1 visible roots form the existing reference baseline. Missing observations remain absent, with blanks in four-period figures. The position IDs from the selected66 inputs are retained unchanged.
 
 The old full-field prediction remains archived as a different input-context run. All scripts and old weights are preserved. This current entry uses the existing pretrained V90 transfer interface: reconstructed skeleton partitions/neighbors, a nearest-junction degree proxy and no unreleased dense local-correction prepass. These departures are documented in provenance; no external temporal accuracy is claimed.
+
+## Current complete native-image batch
+
+Use the complete already matched18-position /66-image input set without registration, cropping or resizing. V35 is the sole root/background source on the same full RGB; V90 assigns temporal labels on its saved foreground. Complete-image V35/V90 inference at the unchanged selected epoch91 weights already exists; `reuse_matched_native.py` audits RGB hashes, mask hashes, checkpoint hashes and every foreground pixel before reusing it. The batch result is at `work/V90_all_matched_native`. Native PNG sizes and missing dates are preserved.
+
+```bash
+python 04_ConvLSTM_GAT_V90/reuse_matched_native.py
+# Fresh temporal inference if the prepared V35 results or weights change:
+python 04_ConvLSTM_GAT_V90/predict_latest_common.py --source work/V35_full250_common66 --runtime work/V90_full250_common66/runtime --output your_new_temporal_run
+```
+
+The source option takes already prepared V35 predictions and their exact RGB; it does not extract or align a field. A standalone500px reference input is a different neural context from a full native input and is not pasted or enlarged into these outputs. Within this full-input batch, V35 and V90 foregrounds must agree pixel-for-pixel.

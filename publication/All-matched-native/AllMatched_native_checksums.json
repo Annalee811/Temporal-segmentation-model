@@ -1,0 +1,110 @@
+{
+  "AllMatched_native_completion.json": {
+    "bytes": 1283,
+    "sha256": "a6f1ed9bfd6851d7ae4a8092a31454145ebd03722466589f726f03d91b226e14"
+  },
+  "AllMatched_native_V35_binary_masks.zip": {
+    "bytes": 3102845,
+    "sha256": "4d2fbc710a6fff4a9a71d65915b7d95af3e2ecc5c1164729e1b4a704b2ecac1b"
+  },
+  "AllMatched_native_A017-3-B3_V35.zip": {
+    "bytes": 54698557,
+    "sha256": "a8d15c7e267be8499a8d1aff314f6268e3c3233a1c513a6bf496cfd9c3bdcbb3"
+  },
+  "AllMatched_native_A017-2-3_V35.zip": {
+    "bytes": 46113961,
+    "sha256": "420fb998e43287a68fef1cc40cb730b2b87ad111b51b8ca29ed0d8dfb250f9d4"
+  },
+  "AllMatched_native_A017-2-2_V35.zip": {
+    "bytes": 40019268,
+    "sha256": "67d8a8aa12e4c3615d4e9ae197748f7dd7a3d62eeadcbc12d7be26cf5a8d3fbf"
+  },
+  "AllMatched_native_0353-2-LB2_V35.zip": {
+    "bytes": 58540604,
+    "sha256": "b3923ce3af62f79e5aa6bd1a74f5ee986a6bcd91e6cda86f1ac5b21220ce7907"
+  },
+  "AllMatched_native_0353-2-B3_V35.zip": {
+    "bytes": 38061934,
+    "sha256": "e2152c99e4f7a74597f32cbf457592784aa6fa993af372de34cffae67622099a"
+  },
+  "AllMatched_native_Q1-1-B2_V35.zip": {
+    "bytes": 14850252,
+    "sha256": "92f7e6c77622fd2afff6d37b4508b460af00d26178b347717e671b3f7f833f69"
+  },
+  "AllMatched_native_prediction_manifest.csv": {
+    "bytes": 44282,
+    "sha256": "a24983bc7e9f7427913280e4fde13713913f997d3a4c53a2260f85e507c75094"
+  },
+  "AllMatched_native_A017-1-Z2_V35.zip": {
+    "bytes": 12752085,
+    "sha256": "c8e4d312d6cd0eed32977d45a8cc1fbf0714b2f7c667584a2eaaa5f0bfbde124"
+  },
+  "AllMatched_native_README.md": {
+    "bytes": 12705,
+    "sha256": "dd81b6f242252eef60805de71ac28ba16a3ddbe4b4130fd85be2ffc6b8b299f1"
+  },
+  "AllMatched_native_A017-3-Z2_V35.zip": {
+    "bytes": 57819714,
+    "sha256": "70ff377ae5f4ea68190911bd9dccbd4e17188a295ffce3270cb07d1f85d3f71d"
+  },
+  "AllMatched_native_Q1-2-B3_V35.zip": {
+    "bytes": 61612576,
+    "sha256": "567aa44420bd4fd621131943a142429ecabb0355480969adf083ba20c65927ee"
+  },
+  "AllMatched_native_0353-2-LB3_V35.zip": {
+    "bytes": 59855929,
+    "sha256": "95fa1bffd1e66bd5175a2534bc0ace38652b6950bccb968e9de0bcbfe2504cc2"
+  },
+  "AllMatched_native_Q1-2-Z2_V35.zip": {
+    "bytes": 47508854,
+    "sha256": "e1a9cf3bfbbe0f0dd43a9e0880dd62928b384fac0edcdd0a72b5029db668e0c4"
+  },
+  "AllMatched_native_same_foreground_preview.png": {
+    "bytes": 824323,
+    "sha256": "04fe3be5e0b86d3f9c97e07bec010f92b665e5e3d1654b57766011b6170f075d"
+  },
+  "AllMatched_native_V35_V90_comparison_preview.pdf": {
+    "bytes": 69638590,
+    "sha256": "e4323d2337e1cd71a75755cd38a8ffff675f229938c1811d3ce28c4aec503f93"
+  },
+  "AllMatched_native_Q1-1-Z3_V35.zip": {
+    "bytes": 34740191,
+    "sha256": "d591d4dfb7b9e75f80196f3fcab87bc1617deab92f5afdc3eef466bb3615358c"
+  },
+  "AllMatched_native_0353-1-B3_V35.zip": {
+    "bytes": 29353321,
+    "sha256": "30bc55b3a3c3d8c058214371a08e843902b9f2dd0ab14414ab347f0dd44b305a"
+  },
+  "AllMatched_native_Q1-2-Z3_V35.zip": {
+    "bytes": 55029771,
+    "sha256": "12e73d7fec0df31bea0ae1cdbdd8db3f3c6fcfc7216164cbd52ac87ecb94d455"
+  },
+  "AllMatched_native_missing_periods.csv": {
+    "bytes": 96,
+    "sha256": "d37d5312d482548fe9da96b003d905de131aae89bc6d9668b5cb20fcbd6798db"
+  },
+  "AllMatched_native_A017-1-B2_V35.zip": {
+    "bytes": 41085159,
+    "sha256": "5c7343b4566aa4a6bf6719b5abee5571ad3e78d284eeb955c7d1c2f8e7f00ff6"
+  },
+  "AllMatched_native_0353-1-Z2_V35.zip": {
+    "bytes": 17003221,
+    "sha256": "641a7ec084be718c6dce35bd9314f63c41b0f47f360c91e3f31a45a64f5d46a4"
+  },
+  "AllMatched_native_0353-3-LB2_V35.zip": {
+    "bytes": 25129902,
+    "sha256": "209d878fd2f7c8211076b34f70b5707cefc7ff320d6307ddbf2310032927ac98"
+  },
+  "AllMatched_native_V90_two_class_masks.zip": {
+    "bytes": 3160522,
+    "sha256": "d7552ced9502f5e896506b8b931fb3a943d1c4d302506c4533bae38f7bde2e49"
+  },
+  "AllMatched_native_0353-3-LB3_V35.zip": {
+    "bytes": 49196802,
+    "sha256": "88267777ab6f93b39dcfc7d675080c4bf390b7196950f9ec2374a1d46fa9f2e4"
+  },
+  "AllMatched_native_V90_overview.pdf": {
+    "bytes": 41677559,
+    "sha256": "a958973ceddff2e217bc58322a3c1504a7377a2a96a4b0bb92aa1b527910655e"
+  }
+}
