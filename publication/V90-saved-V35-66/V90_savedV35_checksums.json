@@ -1,0 +1,58 @@
+{
+  "V90_savedV35_README.md": {
+    "bytes": 1769,
+    "sha256": "f2fd936703cc1f22033fdd24a8897eff380f743ad31a3069e02b1faec58a50ec"
+  },
+  "V90_savedV35_model_pipeline.zip": {
+    "bytes": 47118182,
+    "sha256": "463b3aca20fff2e53077256184f272a96bcd82fe86641b9f401c9aabcd74d2cb"
+  },
+  "V90_savedV35_missing_periods.csv": {
+    "bytes": 96,
+    "sha256": "d37d5312d482548fe9da96b003d905de131aae89bc6d9668b5cb20fcbd6798db"
+  },
+  "V90_savedV35_two_class_masks.zip": {
+    "bytes": 314193,
+    "sha256": "9241fe892a019924160918b8f7ed52f50a8568984d1e87e68d287eb703abcc20"
+  },
+  "V90_savedV35_same_foreground_preview.png": {
+    "bytes": 610596,
+    "sha256": "98d71c18dea9819c331cf5a1d1e62f3c8a9b67e3c6c9cc982fcc5e956b6a554c"
+  },
+  "V90_savedV35_inputs.zip": {
+    "bytes": 55498327,
+    "sha256": "44cfbc0e435256ebb72732fe5873def1ba313d6a464139a44ee7e5aa1cf4c18f"
+  },
+  "V90_savedV35_temporal_overview.pdf": {
+    "bytes": 36778926,
+    "sha256": "be50e3524d53b631b419fe4e057df10b7d207beac8f63ce9dcb73f20023d08b7"
+  },
+  "V90_savedV35_V35_V90_comparison.pdf": {
+    "bytes": 73264057,
+    "sha256": "4c9fe273c3872688182ed8da97425ec863d8b530285f07c2ecf64a0eee87dd1e"
+  },
+  "V90_savedV35_same_color_check.png": {
+    "bytes": 509358,
+    "sha256": "b8165edce12491a756d2a5a4e7fdf60cdd5ef005c4989fb8a4e109d98e074ba4"
+  },
+  "V90_savedV35_verification.json": {
+    "bytes": 475,
+    "sha256": "b4d9a226af65a78240c09e9a268759154bd58b1fb1795a3cce8c4e75568a62b7"
+  },
+  "V90_savedV35_completion.json": {
+    "bytes": 1191,
+    "sha256": "e853053dba135a0bc54bf4434ef46e25e9b5f3df4f2a309de23bcd6a8ef1a672"
+  },
+  "V90_savedV35_prediction_manifest.csv": {
+    "bytes": 46714,
+    "sha256": "aa71f5dc6a77ca5c3f50c55c8fbdd9fe3dbf347e279e0bd6d859532bef888044"
+  },
+  "V90_savedV35_all66_images_masks.zip": {
+    "bytes": 83097340,
+    "sha256": "2c89231fa8f7cdd6898750090e2ae2333a73201b8a141e894973df72f8e5bf48"
+  },
+  "V90_savedV35_model_README.md": {
+    "bytes": 1358,
+    "sha256": "a9a0cec827852717e224b00ea380f392b0f477407a7699831599fe596563c24e"
+  }
+}

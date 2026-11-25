@@ -11,7 +11,15 @@ def main():
     p.add_argument('--ablation', choices=['no-temporal-memory', 'no-gat'])
     p.add_argument('--common-source', type=Path, help='Latest V35 common-field run; uses the updated foreground and V90 transfer inference')
     p.add_argument('--transfer-runtime', type=Path, default=HERE.parent/'work/V90_full250_common66/runtime')
+    p.add_argument('--saved-v35-zip', type=Path, help='Use saved V35 prediction masks with exactly their original registered RGB inputs')
+    p.add_argument('--saved-RGB-root', type=Path, default=HERE.parent/'work/V35_310_100epochs/data/RGB')
+    p.add_argument('--saved-parents', type=Path, default=HERE.parent/'work/V35_full250_all66/data/parents.csv')
     a=p.parse_args()
+    if a.saved_v35_zip is not None:
+        if a.mode != 'infer' or a.common_source or a.ablation or a.legacy_three_class:
+            p.error('Saved-V35 mode requires infer, unchanged registered inputs and two temporal root classes')
+        subprocess.run([sys.executable,str(HERE/'predict_saved_v35.py'),'--masks-zip',str(a.saved_v35_zip),'--RGB-root',str(a.saved_RGB_root),'--parents',str(a.saved_parents),'--runtime',str(a.transfer_runtime),'--output',str(a.output)],check=True)
+        return
     if a.common_source is not None:
         if a.mode != 'infer' or a.ablation or a.legacy_three_class:
             p.error('The updated common-field pipeline requires infer and exports two root classes')

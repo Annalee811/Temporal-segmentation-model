@@ -102,19 +102,18 @@ contains the development run for 0353-2-B3; assessment on other tubes
 requires their prepared predictions and annotations.
 
 
-## Latest full250 V35 foreground for common-field temporal prediction
+## Current input contract: preserve the selected V35 masks
 
-The current binary input is `V35_full250_best.pt`, selected at epoch91 after completing100 training epochs on1240 native250px crops from310 source images. All66 supplemental source images /264 quadrants were training data. The1048 training crops were visited in every epoch. Earlier V35 weights remain preserved. V66 epoch37 and V90 ConvLSTM/GAT epoch78 temporal/graph weights remain frozen.
+The current entry uses the already registered66 input RGB images (500×500) and the exact masks in the user-selected `V35_full250_all66_supplemental_predictions.zip`. V35 is the sole root/background provider. V90 assigns existing/new labels only inside these fixed root pixels. No new registration, cropping, resizing or observation-field extraction is performed.
 
 ```bash
-python 02_root_background/predict_full250_common.py
-python 04_ConvLSTM_GAT_V90/predict_latest_common.py
-# Or explicitly bind the new common-field input to the versioned runtime:
-python 04_ConvLSTM_GAT_V90/run.py infer --common-source work/V35_full250_common66 --transfer-runtime work/V90_full250_common66/runtime --output work/V90_full250_common66
+python 04_ConvLSTM_GAT_V90/predict_saved_v35.py --output work/V90_saved_V35_66
+# Equivalent explicit entry:
+python 04_ConvLSTM_GAT_V90/run.py infer --saved-v35-zip /workspace/shared/downloads/V35_full250_all66_supplemental_predictions.zip --output work/V90_saved_V35_66
 ```
 
-The versioned runtime bundle supplies the selected V35 binary checkpoint,250px inference window and188px stride, and the frozen temporal checkpoints. Binary probabilities, V66 temporal priors, graphs, root-axis constraints and junction assignments are recomputed for all18 common fields /66 observed images. Pipeline configuration binds input hashes and all three model hashes. Export fails if any temporal foreground differs from the updated V35 mask.
+Input RGB hashes and V35 mask ZIP members are bound in the manifest. Soft V35 probabilities are restored using the identical500px input and selected epoch91 checkpoint, and their0.5 threshold must exactly reproduce the selected masks. These cached probabilities supply V66 temporal features; the selected mask remains authoritative. Frozen V90 ConvLSTM/GAT, Axis and Junction are then evaluated on these inputs. Output fails if temporal foreground differs from the selected V35 mask.
 
-Outputs contain only0=background,1=existing root and2=new root. Extension and persistence merge into existing root. T1 visible roots form the existing reference baseline. Missing observations stay absent from inference and blank in four-period figures; changes after a gap refer to the previous observed date. The original common RGB bytes, geometry and pixel grids remain unchanged.
+Final classes are0=background,1=existing root,2=new root; extension and persistence merge into existing root. T1 visible roots form the existing reference baseline. Missing observations remain absent, with blanks in four-period figures. The position IDs from the selected66 inputs are retained unchanged.
 
-This uses the existing V90 pretrained transfer interface. Reconstructed skeleton partition/neighbors and a nearest-junction degree cue differ from original tensor-bound preprocessing, and the unreleased dense local-correction prepass is absent. These departures remain in output provenance; no historical temporal score is assigned to these new predictions. The original tensor-bound reproduction remains available without `--common-source`.
+The old full-field prediction remains archived as a different input-context run. All scripts and old weights are preserved. This current entry uses the existing pretrained V90 transfer interface: reconstructed skeleton partitions/neighbors, a nearest-junction degree proxy and no unreleased dense local-correction prepass. These departures are documented in provenance; no external temporal accuracy is claimed.

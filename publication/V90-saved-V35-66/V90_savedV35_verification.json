@@ -1,0 +1,17 @@
+{
+  "positions": 18,
+  "images": 66,
+  "input_size": [
+    500,
+    500
+  ],
+  "mask_source_zip_SHA256": "94e53fe10e965e6b02405765928383239e39396525b3a56756b2ff9db7d6ced3",
+  "all66_V35_masks_byte_identical_to_user_selected_archive": true,
+  "all66_V90_foregrounds_pixel_identical_to_selected_V35": true,
+  "foreground_difference_pixels": 0,
+  "RGB_unchanged": true,
+  "re_registered": false,
+  "re_cropped": false,
+  "resized": false,
+  "missing_dates_synthesized": false
+}
