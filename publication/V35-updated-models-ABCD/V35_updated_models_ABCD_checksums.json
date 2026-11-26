@@ -1,0 +1,78 @@
+{
+  "V35_updated_models_ABCD.pdf": {
+    "bytes": 139955,
+    "sha256": "ea9fe46712e6bd7156751f987d9fd698aaddd7d8cb6a416f7375832fe5a13a0a"
+  },
+  "V35_updated_models_ABCD.png": {
+    "bytes": 2470549,
+    "sha256": "0d3df2d003c75413db2dc671e839d736741b149f31b72f45a1a175ce624ddc5d"
+  },
+  "V35_updated_models_ABCD.svg": {
+    "bytes": 559970,
+    "sha256": "2b92b43339ab04c837a44e29c08f08d1b3f381066ab97dbf7b0b77d9b121eb5b"
+  },
+  "V35_updated_models_ABCD.tiff": {
+    "bytes": 10919074,
+    "sha256": "75a512a3a5ec76f584be6a6c138732f54c2a9850d5da6c5bdd03cfa1b69872f8"
+  },
+  "V35_updated_models_ABCD_README.md": {
+    "bytes": 1536,
+    "sha256": "5d08c44c95e75d4a60b3ce43fba12994df19bb8cd2fcd2977097e84e403f66e1"
+  },
+  "V35_updated_models_ABCD_bundle.zip": {
+    "bytes": 15772626,
+    "sha256": "bdaed358562dc80784e2b76371549a919eb20beb375e44dde0a8c5e312a0a815"
+  },
+  "V35_updated_models_ABCD_caption.txt": {
+    "bytes": 2281,
+    "sha256": "b1c0d1decf70eaf35a5a3dc03163efb41afa2824f9040a2022231825eb898a67"
+  },
+  "V35_updated_models_ABCD_caption_CN.txt": {
+    "bytes": 1613,
+    "sha256": "642260af5198a5456e816cd497323d29fdca9c7d83ccc9f1ef7f2920656fd4ea"
+  },
+  "V35_updated_models_ABCD_deeplab_complete.json": {
+    "bytes": 1603,
+    "sha256": "48671eb2317c26142aaaa1eb1030734223d74740681460c0a4bca95dc86ea6a1"
+  },
+  "V35_updated_models_ABCD_deeplab_parent_metrics.csv": {
+    "bytes": 49508,
+    "sha256": "0a4d3db8fbd4a2d606f7b1fa760eb9fda3d6d7df60c3934a02d58ecea59cce13"
+  },
+  "V35_updated_models_ABCD_deeplab_roc.npz": {
+    "bytes": 2378701,
+    "sha256": "b8aeb1e449c3eb307e2b8a507e3f3e920460102badd293768879759ad322ea7b"
+  },
+  "V35_updated_models_ABCD_preview.png": {
+    "bytes": 669495,
+    "sha256": "de9e2662bc16759d8bd55d3c5fa9dff3fdfcc52d5b76c614098402c42c67e7d1"
+  },
+  "V35_updated_models_ABCD_provenance.json": {
+    "bytes": 10358,
+    "sha256": "e047ba770212ad9c013e47e617e5f7356a38b869def7dbaa78815a3bfd02497d"
+  },
+  "V35_updated_models_ABCD_segformer_complete.json": {
+    "bytes": 1592,
+    "sha256": "04a6460db5e7313f9390ae51ed52146a73d39e20ff49d5ba298dc0320242ddf5"
+  },
+  "V35_updated_models_ABCD_segformer_parent_metrics.csv": {
+    "bytes": 54021,
+    "sha256": "57c45bf624747f744bef40092f783be7282e5aebf8227812f785dc29b121634b"
+  },
+  "V35_updated_models_ABCD_segformer_roc.npz": {
+    "bytes": 1843856,
+    "sha256": "dba0e82a306c0707a7e6b01474f4669c416d66eae5a49152e9a02545acc34b85"
+  },
+  "V35_updated_models_ABCD_unet_complete.json": {
+    "bytes": 1593,
+    "sha256": "aa3922cf1742e12dbad675b3317904744ed3455f3bb6c9ad6e4fcdcd9d2906d8"
+  },
+  "V35_updated_models_ABCD_unet_parent_metrics.csv": {
+    "bytes": 52369,
+    "sha256": "57223054a8275c3041af50b0b0b785c14acf87dd2e781f95d27d1a273ca8d7ee"
+  },
+  "V35_updated_models_ABCD_unet_roc.npz": {
+    "bytes": 1804547,
+    "sha256": "e89da98814928bf62fb49f045c1746f9f31bbdbdc4956d3b98c5881aeb2f67e2"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "model": "deeplab",
+  "checkpoint": "02_root_background/assets/weights/deeplab/best_model.npz",
+  "checkpoint_SHA256": "f65fad6a5cdc4a77e1518fbd389baed4e796d31aefeb653c9f52a0cb28415d48",
+  "input_window": 250,
+  "stride": 188,
+  "threshold": 0.5,
+  "parent_count": 310,
+  "training_parents": 262,
+  "monitoring_parents": 48,
+  "independent_test": false,
+  "monitoring_auc": 0.8353439274739454,
+  "monitoring_roc_pixels": 3145728,
+  "monitoring_root_pixels": 153297,
+  "counts": {
+    "train": {
+      "TP": 621860,
+      "FP": 271059,
+      "FN": 659667,
+      "TN": 27792470,
+      "Precision": 0.6964349509865957,
+      "Recall": 0.48524923782331547,
+      "Dice": 0.5719709755956229,
+      "IoU": 0.4005317579831327
+    },
+    "val": {
+      "TP": 82083,
+      "FP": 34798,
+      "FN": 71214,
+      "TN": 2957633,
+      "Precision": 0.7022783857085412,
+      "Recall": 0.5354507916006184,
+      "Dice": 0.6076216420285886,
+      "IoU": 0.43639118530529786
+    }
+  },
+  "length_definition": "Number of foreground pixels in a one-pixel-wide Zhang skeleton, without pruning or resampling",
+  "regression": {
+    "train": {
+      "n": 262,
+      "R2": 0.4032124419742831,
+      "RMSE": 724.258715531198,
+      "MAE": 520.1984732824427,
+      "OLS_R2": 0.7005596898614898,
+      "slope": 0.7318973575592833,
+      "intercept": -162.96198353879373
+    },
+    "val": {
+      "n": 48,
+      "R2": 0.5804082556133547,
+      "RMSE": 440.41512141009264,
+      "MAE": 287.3541666666667,
+      "OLS_R2": 0.7391896926592627,
+      "slope": 0.7535228118109885,
+      "intercept": -72.38633221909868
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "model": "unet",
+  "checkpoint": "work/V35_full250_all66/weights/V35_full250_best.pt",
+  "checkpoint_SHA256": "9c490fdb98436a352e6b00d4444091e33475f29fa135170edfd56cea823fb139",
+  "input_window": 250,
+  "stride": 188,
+  "threshold": 0.5,
+  "parent_count": 310,
+  "training_parents": 262,
+  "monitoring_parents": 48,
+  "independent_test": false,
+  "monitoring_auc": 0.9935194983377893,
+  "monitoring_roc_pixels": 3145728,
+  "monitoring_root_pixels": 153297,
+  "counts": {
+    "train": {
+      "TP": 1122521,
+      "FP": 106112,
+      "FN": 159006,
+      "TN": 27957417,
+      "Precision": 0.9136340957796185,
+      "Recall": 0.8759245805979897,
+      "Dice": 0.8943820314242916,
+      "IoU": 0.8089431040782221
+    },
+    "val": {
+      "TP": 135540,
+      "FP": 12857,
+      "FN": 17757,
+      "TN": 2979574,
+      "Precision": 0.9133607822260558,
+      "Recall": 0.8841660306463923,
+      "Dice": 0.8985263213719862,
+      "IoU": 0.8157492446766254
+    }
+  },
+  "length_definition": "Number of foreground pixels in a one-pixel-wide Zhang skeleton, without pruning or resampling",
+  "regression": {
+    "train": {
+      "n": 262,
+      "R2": 0.9576158937090875,
+      "RMSE": 193.01246844983677,
+      "MAE": 95.68320610687023,
+      "OLS_R2": 0.9660552975109313,
+      "slope": 0.9492918930376683,
+      "intercept": -18.987739444840987
+    },
+    "val": {
+      "n": 48,
+      "R2": 0.9858770892430686,
+      "RMSE": 80.7999071781645,
+      "MAE": 61.083333333333336,
+      "OLS_R2": 0.988397848940314,
+      "slope": 0.9615820261330605,
+      "intercept": 2.117194058197676
+    }
+  }
+}

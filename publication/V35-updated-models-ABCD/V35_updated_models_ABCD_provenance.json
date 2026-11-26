@@ -1,0 +1,353 @@
+{
+  "figure": "V35_updated_models_ABCD",
+  "models": {
+    "unet": {
+      "model": "unet",
+      "checkpoint": "work/V35_full250_all66/weights/V35_full250_best.pt",
+      "checkpoint_SHA256": "9c490fdb98436a352e6b00d4444091e33475f29fa135170edfd56cea823fb139",
+      "input_window": 250,
+      "stride": 188,
+      "threshold": 0.5,
+      "parent_count": 310,
+      "training_parents": 262,
+      "monitoring_parents": 48,
+      "independent_test": false,
+      "monitoring_auc": 0.9935194983377893,
+      "monitoring_roc_pixels": 3145728,
+      "monitoring_root_pixels": 153297,
+      "counts": {
+        "train": {
+          "TP": 1122521,
+          "FP": 106112,
+          "FN": 159006,
+          "TN": 27957417,
+          "Precision": 0.9136340957796185,
+          "Recall": 0.8759245805979897,
+          "Dice": 0.8943820314242916,
+          "IoU": 0.8089431040782221
+        },
+        "val": {
+          "TP": 135540,
+          "FP": 12857,
+          "FN": 17757,
+          "TN": 2979574,
+          "Precision": 0.9133607822260558,
+          "Recall": 0.8841660306463923,
+          "Dice": 0.8985263213719862,
+          "IoU": 0.8157492446766254
+        }
+      },
+      "length_definition": "Number of foreground pixels in a one-pixel-wide Zhang skeleton, without pruning or resampling",
+      "regression": {
+        "train": {
+          "n": 262,
+          "R2": 0.9576158937090875,
+          "RMSE": 193.01246844983677,
+          "MAE": 95.68320610687023,
+          "OLS_R2": 0.9660552975109313,
+          "slope": 0.9492918930376683,
+          "intercept": -18.987739444840987
+        },
+        "val": {
+          "n": 48,
+          "R2": 0.9858770892430686,
+          "RMSE": 80.7999071781645,
+          "MAE": 61.083333333333336,
+          "OLS_R2": 0.988397848940314,
+          "slope": 0.9615820261330605,
+          "intercept": 2.117194058197676
+        }
+      }
+    },
+    "deeplab": {
+      "model": "deeplab",
+      "checkpoint": "02_root_background/assets/weights/deeplab/best_model.npz",
+      "checkpoint_SHA256": "f65fad6a5cdc4a77e1518fbd389baed4e796d31aefeb653c9f52a0cb28415d48",
+      "input_window": 250,
+      "stride": 188,
+      "threshold": 0.5,
+      "parent_count": 310,
+      "training_parents": 262,
+      "monitoring_parents": 48,
+      "independent_test": false,
+      "monitoring_auc": 0.8353439274739454,
+      "monitoring_roc_pixels": 3145728,
+      "monitoring_root_pixels": 153297,
+      "counts": {
+        "train": {
+          "TP": 621860,
+          "FP": 271059,
+          "FN": 659667,
+          "TN": 27792470,
+          "Precision": 0.6964349509865957,
+          "Recall": 0.48524923782331547,
+          "Dice": 0.5719709755956229,
+          "IoU": 0.4005317579831327
+        },
+        "val": {
+          "TP": 82083,
+          "FP": 34798,
+          "FN": 71214,
+          "TN": 2957633,
+          "Precision": 0.7022783857085412,
+          "Recall": 0.5354507916006184,
+          "Dice": 0.6076216420285886,
+          "IoU": 0.43639118530529786
+        }
+      },
+      "length_definition": "Number of foreground pixels in a one-pixel-wide Zhang skeleton, without pruning or resampling",
+      "regression": {
+        "train": {
+          "n": 262,
+          "R2": 0.4032124419742831,
+          "RMSE": 724.258715531198,
+          "MAE": 520.1984732824427,
+          "OLS_R2": 0.7005596898614898,
+          "slope": 0.7318973575592833,
+          "intercept": -162.96198353879373
+        },
+        "val": {
+          "n": 48,
+          "R2": 0.5804082556133547,
+          "RMSE": 440.41512141009264,
+          "MAE": 287.3541666666667,
+          "OLS_R2": 0.7391896926592627,
+          "slope": 0.7535228118109885,
+          "intercept": -72.38633221909868
+        }
+      }
+    },
+    "segformer": {
+      "model": "segformer",
+      "checkpoint": "02_root_background/assets/weights/segformer/best_model.pt",
+      "checkpoint_SHA256": "211fcfea949dfe21ebfc0f78cb2e10565485bd71dffad5dd3f9796a715c78445",
+      "input_window": 250,
+      "stride": 188,
+      "threshold": 0.5,
+      "parent_count": 310,
+      "training_parents": 262,
+      "monitoring_parents": 48,
+      "independent_test": false,
+      "monitoring_auc": 0.9629002020722849,
+      "monitoring_roc_pixels": 3145728,
+      "monitoring_root_pixels": 153297,
+      "counts": {
+        "train": {
+          "TP": 876498,
+          "FP": 294920,
+          "FN": 405029,
+          "TN": 27768609,
+          "Precision": 0.7482367523804483,
+          "Recall": 0.6839481337498157,
+          "Dice": 0.7146495335199118,
+          "IoU": 0.5559958565051664
+        },
+        "val": {
+          "TP": 109630,
+          "FP": 32995,
+          "FN": 43667,
+          "TN": 2959436,
+          "Precision": 0.7686590709903593,
+          "Recall": 0.7151477197857753,
+          "Dice": 0.740938490548185,
+          "IoU": 0.5884847443797908
+        }
+      },
+      "length_definition": "Number of foreground pixels in a one-pixel-wide Zhang skeleton, without pruning or resampling",
+      "regression": {
+        "train": {
+          "n": 262,
+          "R2": 0.8504074603248157,
+          "RMSE": 362.6091991355293,
+          "MAE": 227.34732824427482,
+          "OLS_R2": 0.8792828534139345,
+          "slope": 0.9351403990810219,
+          "intercept": -65.2410415752604
+        },
+        "val": {
+          "n": 48,
+          "R2": 0.9671921088501667,
+          "RMSE": 123.15099133448608,
+          "MAE": 86.25,
+          "OLS_R2": 0.9892956070245935,
+          "slope": 0.8848276651808128,
+          "intercept": 21.119275542653966
+        }
+      }
+    }
+  },
+  "datasets": {
+    "training_crops": 1048,
+    "monitoring_crops": 192,
+    "training_parents": 262,
+    "monitoring_parents": 48,
+    "independent_test": 0
+  },
+  "training_curves": {
+    "unet": "current100epochs",
+    "deeplab": "archived100epochs",
+    "segformer": "archived100epochs"
+  },
+  "deeplab_equivalence": {
+    "archived_reference": "original TF1.12 native256 predictions",
+    "images": 24,
+    "max_abs": 6.377696990966797e-06,
+    "total_threshold_disagreement": 0,
+    "records": [
+      {
+        "image_id": "P16_T1",
+        "max_abs": 4.103640094399452e-09,
+        "mean_abs": 1.394319094861693e-13,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P16_T2",
+        "max_abs": 6.377696990966797e-06,
+        "mean_abs": 6.402832930518798e-09,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P16_T3",
+        "max_abs": 1.6093254089355469e-06,
+        "mean_abs": 1.6350416132127066e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P16_T4",
+        "max_abs": 9.5367431640625e-07,
+        "mean_abs": 1.550761474788942e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P22_T1",
+        "max_abs": 2.091837814077735e-11,
+        "mean_abs": 3.957210874630003e-16,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P22_T2",
+        "max_abs": 1.341104507446289e-06,
+        "mean_abs": 2.5574978579356866e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P22_T3",
+        "max_abs": 1.3709068298339844e-06,
+        "mean_abs": 2.0673972755957948e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P22_T4",
+        "max_abs": 1.3709068298339844e-06,
+        "mean_abs": 2.389744580000297e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P23_T1",
+        "max_abs": 8.313350008393172e-13,
+        "mean_abs": 5.874213193877975e-17,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P23_T2",
+        "max_abs": 1.2814998626708984e-06,
+        "mean_abs": 2.9526114886380128e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P23_T3",
+        "max_abs": 1.8477439880371094e-06,
+        "mean_abs": 2.17403730573551e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P23_T4",
+        "max_abs": 1.3113021850585938e-06,
+        "mean_abs": 1.740247590475974e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P28_T1",
+        "max_abs": 1.4007091522216797e-06,
+        "mean_abs": 2.4790271169194966e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P28_T2",
+        "max_abs": 1.3113021850585938e-06,
+        "mean_abs": 3.1914339615468634e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P28_T3",
+        "max_abs": 1.6093254089355469e-06,
+        "mean_abs": 4.7307388229000935e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P28_T4",
+        "max_abs": 1.817941665649414e-06,
+        "mean_abs": 1.8091537157260973e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P30_T1",
+        "max_abs": 1.862645149230957e-09,
+        "mean_abs": 2.791869383247936e-13,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P30_T2",
+        "max_abs": 1.3709068298339844e-06,
+        "mean_abs": 1.798609972070153e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P30_T3",
+        "max_abs": 1.1920928955078125e-06,
+        "mean_abs": 1.8043376570631153e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P30_T4",
+        "max_abs": 1.1324882507324219e-06,
+        "mean_abs": 1.4550805893520646e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P33_T1",
+        "max_abs": 1.0281801223754883e-06,
+        "mean_abs": 6.9645234024307e-11,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P33_T2",
+        "max_abs": 1.3113021850585938e-06,
+        "mean_abs": 2.7660879808877326e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P33_T3",
+        "max_abs": 1.6093254089355469e-06,
+        "mean_abs": 2.7133802760204162e-08,
+        "threshold_disagreement": 0
+      },
+      {
+        "image_id": "P33_T4",
+        "max_abs": 1.6987323760986328e-06,
+        "mean_abs": 2.8818949004971728e-08,
+        "threshold_disagreement": 0
+      }
+    ]
+  },
+  "font": "Times New Roman",
+  "text_color": "black",
+  "font_sizes_pt": {
+    "title": 21,
+    "axis_label": 16,
+    "tick": 13,
+    "statistics": 12.5,
+    "matrix_percentage": 18,
+    "matrix_count": 14
+  }
+}
