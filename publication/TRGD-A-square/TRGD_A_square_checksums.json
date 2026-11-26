@@ -1,0 +1,38 @@
+{
+  "TRGD_A_square_bundle.zip": {
+    "bytes": 992072,
+    "sha256": "2377fdb2a69b3abd39835099aabe175163b3444f9608fb00566ccfd038a76481"
+  },
+  "TRGD_A_square_plot_values.csv": {
+    "bytes": 793,
+    "sha256": "d6de62ca86216e194f53e23efa1c8ee43babb8c1e11f76a404a7b9a09128d7cb"
+  },
+  "TRGD_A_square.tiff": {
+    "bytes": 1046894,
+    "sha256": "29d7a25c9bf9bfc2708d182e0fccada11b09012c861a947918550be9a699aeaf"
+  },
+  "TRGD_A_square.svg": {
+    "bytes": 17363,
+    "sha256": "8b7c2782ff2f68467ca881c1a6e925e8f5b226111297c1dc066064457f96dd20"
+  },
+  "TRGD_A_square.png": {
+    "bytes": 389364,
+    "sha256": "30c931a08d36c731ffb4a249a36d2876d0463076d50a89d1dc838bf5cc62355d"
+  },
+  "TRGD_A_square.pdf": {
+    "bytes": 47447,
+    "sha256": "6156f15c567fdcf721e6ec2556d230cbac9e033c3a3018d0edb12dac177a20a9"
+  },
+  "TRGD_A_square_README.md": {
+    "bytes": 659,
+    "sha256": "28171f4b09a82dc93ffada4668b1193fcef31cf3507eb19c01f17f559d5be80d"
+  },
+  "TRGD_A_square_provenance.json": {
+    "bytes": 1905,
+    "sha256": "9d8a3f319e98c40f9ef6bc71a39c07a2bbb6c8c047aac6d2dff9ab7658e71ce1"
+  },
+  "TRGD_A_square_preview.png": {
+    "bytes": 119095,
+    "sha256": "b302dd90110a443be4465ac8d02d7d19a8787f79a15e913fc835913741913cc1"
+  }
+}

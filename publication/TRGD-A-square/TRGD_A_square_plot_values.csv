@@ -1,0 +1,17 @@
+﻿root_class,model,metric,score_percent
+new_root,V66 U-Net,Precision,86.70585276089862
+new_root,V66 U-Net,Recall,83.13763820307443
+new_root,V66 U-Net,Dice,84.884263459395
+new_root,V66 U-Net,IoU,73.7381925445559
+new_root,TRGD (V90),Precision,94.50738216922203
+new_root,TRGD (V90),Recall,84.50348443113013
+new_root,TRGD (V90),Dice,89.2259028675973
+new_root,TRGD (V90),IoU,80.5476236569548
+existing_root,V66 U-Net,Precision,96.6169721850122
+existing_root,V66 U-Net,Recall,97.42131969267432
+existing_root,V66 U-Net,Dice,97.01747880678694
+existing_root,V66 U-Net,IoU,94.2077137777248
+existing_root,TRGD (V90),Precision,96.93083569864467
+existing_root,TRGD (V90),Recall,99.0064813673528
+existing_root,TRGD (V90),Dice,97.9576644431374
+existing_root,TRGD (V90),IoU,95.99708190582423
