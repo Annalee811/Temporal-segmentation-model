@@ -1,0 +1,159 @@
+{
+  "experiment": "Whole-pipeline inference ablation: TRGD off versus TRGD on",
+  "binary_model": "V35 selected epoch91 after100epochs",
+  "binary_weights_SHA256": "9c490fdb98436a352e6b00d4444091e33475f29fa135170edfd56cea823fb139",
+  "temporal_weights_SHA256": "721e6c55e9522dfab54912bc70eee64e2460f364f7fbfba9c88e4996ad0d152a",
+  "weights_retrained": false,
+  "TRGD_off": "Frozen V66 priors; no V90 ConvLSTM/GAT or Axis/Junction decoding",
+  "TRGD_on": "Frozen V90 ConvLSTM+GAT followed by Axis and Junction decoding in the existing deployed transfer interface",
+  "paired_positions": 18,
+  "paired_images": 66,
+  "all_foreground_difference_pixels": 0,
+  "reference_position": "0353-2-B3",
+  "evaluated_periods": [
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "T1": "Context only; not scored",
+  "reference_root_pixels": 468203,
+  "reference_root_pixels_detected_by_V35": 450765,
+  "V35_reference_root_coverage": 0.9627554714514858,
+  "evaluation_scope": "One previously annotated development sequence; no independent temporal test set. Other positions have no complete verified two-class temporal reference used here.",
+  "class_codes": {
+    "0": "background",
+    "1": "existing_root",
+    "2": "new_root"
+  },
+  "reference_merge": "legacy codes1and3 merged to existing; code2 new",
+  "metrics": [
+    {
+      "model": "TRGD off",
+      "scope": "annotated_reference_roots_including_missed",
+      "existing_root_Precision": 0.9777681695964113,
+      "existing_root_Recall": 0.9291363655039238,
+      "existing_root_Dice": 0.9528321388741493,
+      "existing_root_IoU": 0.9099134668339826,
+      "new_root_Precision": 0.8201338124148185,
+      "new_root_Recall": 0.8402366112796558,
+      "new_root_Dice": 0.830063515352156,
+      "new_root_IoU": 0.7094945120905505,
+      "Accuracy": 0.9141782517412319,
+      "missed_root_pixels": 17438,
+      "evaluated_root_pixels": 468203,
+      "macro_Dice": 0.8914478271131526
+    },
+    {
+      "model": "TRGD on",
+      "scope": "annotated_reference_roots_including_missed",
+      "existing_root_Precision": 0.9772683632537648,
+      "existing_root_Recall": 0.9540577879124039,
+      "existing_root_Dice": 0.9655236038508366,
+      "existing_root_IoU": 0.9333452241588078,
+      "new_root_Precision": 0.9318317042073948,
+      "new_root_Recall": 0.8349687099353889,
+      "new_root_Dice": 0.8807450006360088,
+      "new_root_IoU": 0.786902896244811,
+      "Accuracy": 0.9340200724899242,
+      "missed_root_pixels": 17438,
+      "evaluated_root_pixels": 468203,
+      "macro_Dice": 0.9231343022434226
+    }
+  ],
+  "conditional_metrics": [
+    {
+      "model": "TRGD off",
+      "scope": "reference_roots_detected_by_fixed_V35",
+      "existing_root_Precision": 0.9777681695964113,
+      "existing_root_Recall": 0.9614263508217195,
+      "existing_root_Dice": 0.9695284030010718,
+      "existing_root_IoU": 0.9408589288871785,
+      "new_root_Precision": 0.8201338124148185,
+      "new_root_Recall": 0.8894517602794948,
+      "new_root_Dice": 0.8533874814671566,
+      "new_root_IoU": 0.7442684147205325,
+      "Accuracy": 0.9495435537364258,
+      "missed_root_pixels": 0,
+      "evaluated_root_pixels": 450765,
+      "macro_Dice": 0.9114579422341142
+    },
+    {
+      "model": "TRGD on",
+      "scope": "reference_roots_detected_by_fixed_V35",
+      "existing_root_Precision": 0.9772683632537648,
+      "existing_root_Recall": 0.9872138596234837,
+      "existing_root_Dice": 0.9822159361285888,
+      "existing_root_IoU": 0.9650533654383135,
+      "new_root_Precision": 0.9318317042073948,
+      "new_root_Recall": 0.8838753023380812,
+      "new_root_Dice": 0.9072201917109165,
+      "new_root_IoU": 0.8301948707592892,
+      "Accuracy": 0.9701529621865052,
+      "missed_root_pixels": 0,
+      "evaluated_root_pixels": 450765,
+      "macro_Dice": 0.9447180639197527
+    }
+  ],
+  "confusion": {
+    "off": [
+      [
+        361828,
+        14517,
+        13079
+      ],
+      [
+        8227,
+        66193,
+        4359
+      ]
+    ],
+    "on": [
+      [
+        371533,
+        4812,
+        13079
+      ],
+      [
+        8642,
+        65778,
+        4359
+      ]
+    ]
+  },
+  "conditional_confusion": {
+    "off": [
+      [
+        361828,
+        14517,
+        0
+      ],
+      [
+        8227,
+        66193,
+        0
+      ]
+    ],
+    "on": [
+      [
+        371533,
+        4812,
+        0
+      ],
+      [
+        8642,
+        65778,
+        0
+      ]
+    ]
+  },
+  "source_reference_SHA256": {
+    "T2": "b74db8f9463475dca827d2c281187f1cdbf6730ba1c28f8b1e74b358eda8bfda",
+    "T3": "619d4a3dda8cd58a4ddb893567ceee32ddee181fa6c44f71107bbfa20f36a403",
+    "T4": "68b45b5fd07e7fdaa6e974f766f1b1c4c9b9d9758e9107faf379963a4a19c661"
+  },
+  "transfer_adapter_known_departures": [
+    "Reconstructed skeleton node partition and neighbor selection",
+    "Nearest-junction pixel-degree proxy replaces one unrecovered geometric cue",
+    "Original archived dense local-correction prepass omitted; starts with frozen V66 priors"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "TRGD_latest_whole_pipeline_ablation.png": {
+    "bytes": 816620,
+    "sha256": "f4081e67b7eccc6e0d06626fdf4a0f38682c1280262fd581999ec9b822ab376b"
+  },
+  "TRGD_latest_whole_pipeline_ablation_paired_prediction_audit.csv": {
+    "bytes": 34963,
+    "sha256": "0ce8888a7f2b6bada66f15178d1d9d87aa3b70c86b575ec90ac2078f580130a0"
+  },
+  "TRGD_latest_whole_pipeline_ablation_evaluation.json": {
+    "bytes": 4974,
+    "sha256": "1276bd433d6b3431d04d528ab0d2dfea753e4e61e63525c60f1bf63a690154db"
+  },
+  "TRGD_latest_whole_pipeline_ablation.tiff": {
+    "bytes": 2942620,
+    "sha256": "c8bad9a3549e7a34aab969719cd8e5859591a7bdd5f6baa026f8644c5b2334ba"
+  },
+  "V35_TRGD_with_whole_ablation_preview.png": {
+    "bytes": 513553,
+    "sha256": "5e12df0eb05d3fe4f5f61da68404d8aa58f8b58bda602c34c5894ab459a984c1"
+  },
+  "TRGD_latest_whole_pipeline_ablation_paired_class_maps.zip": {
+    "bytes": 6368006,
+    "sha256": "1686a2657ec14527e416025cfc25d5e782916dd8007264cd5f9a2717d4659c18"
+  },
+  "TRGD_latest_whole_pipeline_ablation_preview.png": {
+    "bytes": 222319,
+    "sha256": "6a1169a3a0937747b18765153ad6813ceb9ca9f07cf13df30fb4b451325693cd"
+  },
+  "TRGD_latest_whole_pipeline_ablation_per_period_metrics.csv": {
+    "bytes": 1502,
+    "sha256": "3ed5c49d7cd5e72551c1fa56672cd42ca7fa69d7cc23be37fd3aebf57268db18"
+  },
+  "TRGD_latest_whole_pipeline_ablation_metrics.csv": {
+    "bytes": 730,
+    "sha256": "ca6a28339ca84071d826d210e9aa2a84b709cc5808ab5e2db39898a2cb1a3c2b"
+  },
+  "V35_TRGD_with_whole_ablation.png": {
+    "bytes": 1743782,
+    "sha256": "43122668d64a0e200c07cb51e525558a678ed87f84af90a7173a57e94f7b6e0c"
+  },
+  "TRGD_latest_whole_pipeline_ablation_caption.txt": {
+    "bytes": 2187,
+    "sha256": "d89a3deaef1d8db779a0d68fffe6c405a2c8f10a380795640c275b1be8c3ef41"
+  },
+  "TRGD_latest_whole_pipeline_ablation_README.md": {
+    "bytes": 1898,
+    "sha256": "9f6c83e528c994a6408219bf367060ebc3833b3e5c8e0b68a87d0839b3bbdf00"
+  },
+  "TRGD_latest_whole_pipeline_ablation.pdf": {
+    "bytes": 61634,
+    "sha256": "ff8266b25c925e9389857d74dcff8fd836b890f3dffd08e3715e6866846b08f7"
+  },
+  "V35_TRGD_main_and_ablation_2pages.pdf": {
+    "bytes": 190338,
+    "sha256": "c8c8e063386079f3fa76aaf53cc993b80674c84ba5968f2cba503701410708d5"
+  },
+  "TRGD_latest_whole_pipeline_ablation_caption_CN.txt": {
+    "bytes": 1218,
+    "sha256": "04a17e6dc3cfd70eaebc967caefefbb8caebcf8364d203112b022c17de12ed0b"
+  },
+  "TRGD_latest_whole_pipeline_ablation_bundle.zip": {
+    "bytes": 11017102,
+    "sha256": "5903334a401b35618a39821f22ced8cc6587cec69293a1a80a2ca3c6c860b01c"
+  },
+  "TRGD_latest_whole_pipeline_ablation_conditional_metrics.csv": {
+    "bytes": 714,
+    "sha256": "7ea374959fd9822f8bc7142ebcb74a6bdcf65a91543e6e5dcae8f8bbb9427b6e"
+  },
+  "TRGD_latest_whole_pipeline_ablation.svg": {
+    "bytes": 29202,
+    "sha256": "36294d24d9454517b1f75229b2a6991ecdad7c89c35e8fd1d75995e7c1463048"
+  },
+  "V35_TRGD_with_whole_ablation.pdf": {
+    "bytes": 190831,
+    "sha256": "814494bf92bbeacb32bf20ad047c61b1089282afc7ce974b259e701e93368d4e"
+  }
+}
