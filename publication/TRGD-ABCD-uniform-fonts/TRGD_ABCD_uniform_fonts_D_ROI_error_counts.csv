@@ -1,0 +1,4 @@
+﻿period,ROI_left,ROI_top,ROI_right,ROI_bottom,reference_root_pixels,V66_wrong_labels,TRGD_wrong_labels,V66_missed_roots,TRGD_missed_roots
+T2,865,650,1285,970,11502,1701,130,0,0
+T3,865,650,1285,970,13850,512,693,0,0
+T4,865,650,1285,970,12036,135,58,0,0

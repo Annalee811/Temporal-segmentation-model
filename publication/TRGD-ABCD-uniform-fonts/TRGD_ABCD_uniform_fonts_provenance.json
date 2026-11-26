@@ -1,0 +1,157 @@
+{
+  "body_font": "Times New Roman",
+  "body_font_pt": 14,
+  "panel_letter_pt": 20,
+  "font_colour": "black",
+  "D_column_header_pt": 14,
+  "A": {
+    "source": "archived V66 U-Net and V90 comparison",
+    "macro_Dice": [
+      0.9095087113309097,
+      0.9359178365536736
+    ],
+    "metrics": [
+      {
+        "comparison": "temporal_baseline",
+        "model": "V66 U-Net",
+        "existing_root_Precision": "0.966169721850122",
+        "existing_root_Recall": "0.9742131969267431",
+        "existing_root_Dice": "0.9701747880678694",
+        "existing_root_IoU": "0.942077137777248",
+        "new_root_Precision": "0.8670585276089863",
+        "new_root_Recall": "0.8313763820307443",
+        "new_root_Dice": "0.84884263459395",
+        "new_root_IoU": "0.737381925445559",
+        "Accuracy": "0.950179729732616",
+        "missed_root_pixels": "0",
+        "evaluated_root_pixels": "468203",
+        "macro_Dice": "0.9095087113309097"
+      },
+      {
+        "comparison": "pipeline_ablation",
+        "model": "TRGD on",
+        "existing_root_Precision": "0.9693083569864467",
+        "existing_root_Recall": "0.990064813673528",
+        "existing_root_Dice": "0.979576644431374",
+        "existing_root_IoU": "0.9599708190582423",
+        "new_root_Precision": "0.9450738216922203",
+        "new_root_Recall": "0.8450348443113013",
+        "new_root_Dice": "0.892259028675973",
+        "new_root_IoU": "0.8054762365695479",
+        "Accuracy": "0.9656623302285547",
+        "missed_root_pixels": "0",
+        "evaluated_root_pixels": "468203",
+        "macro_Dice": "0.9359178365536736"
+      }
+    ]
+  },
+  "BC": {
+    "source": "latest V35 foreground whole-process frozen inference ablation",
+    "metrics": [
+      {
+        "model": "TRGD off",
+        "scope": "annotated_reference_roots_including_missed",
+        "existing_root_Precision": 0.9777681695964113,
+        "existing_root_Recall": 0.9291363655039238,
+        "existing_root_Dice": 0.9528321388741493,
+        "existing_root_IoU": 0.9099134668339826,
+        "new_root_Precision": 0.8201338124148185,
+        "new_root_Recall": 0.8402366112796558,
+        "new_root_Dice": 0.830063515352156,
+        "new_root_IoU": 0.7094945120905505,
+        "Accuracy": 0.9141782517412319,
+        "missed_root_pixels": 17438,
+        "evaluated_root_pixels": 468203,
+        "macro_Dice": 0.8914478271131526
+      },
+      {
+        "model": "TRGD on",
+        "scope": "annotated_reference_roots_including_missed",
+        "existing_root_Precision": 0.9772683632537648,
+        "existing_root_Recall": 0.9540577879124039,
+        "existing_root_Dice": 0.9655236038508366,
+        "existing_root_IoU": 0.9333452241588078,
+        "new_root_Precision": 0.9318317042073948,
+        "new_root_Recall": 0.8349687099353889,
+        "new_root_Dice": 0.8807450006360088,
+        "new_root_IoU": 0.786902896244811,
+        "Accuracy": 0.9340200724899242,
+        "missed_root_pixels": 17438,
+        "evaluated_root_pixels": 468203,
+        "macro_Dice": 0.9231343022434226
+      }
+    ],
+    "reference_root_pixels": 468203,
+    "missed_root_pixels": 17438
+  },
+  "D": {
+    "source_directories": [
+      "work/V66_two_class_annotations/evaluation_reference",
+      "work/V66_merged/unet/full",
+      "work/V90_optimized/prediction/full"
+    ],
+    "ROI": [
+      865,
+      650,
+      1285,
+      970
+    ],
+    "native_pixels_preserved": true,
+    "images": [
+      {
+        "period": "T1",
+        "ROI": [
+          865,
+          650,
+          1285,
+          970
+        ],
+        "native_crop_width": 420,
+        "native_crop_height": 320,
+        "RGB_pixel_SHA256": "8878d54b5f55eb3325912d936ef9b731d0a9deec7e336649efe684c639bab023",
+        "V66_TRGD_foreground_difference_pixels": 0
+      },
+      {
+        "period": "T2",
+        "ROI": [
+          865,
+          650,
+          1285,
+          970
+        ],
+        "native_crop_width": 420,
+        "native_crop_height": 320,
+        "RGB_pixel_SHA256": "78a62599e05e2fb044a482bc6e4410ea7fe83957162cb9be997ea6956dc9bf52",
+        "V66_TRGD_foreground_difference_pixels": 0
+      },
+      {
+        "period": "T3",
+        "ROI": [
+          865,
+          650,
+          1285,
+          970
+        ],
+        "native_crop_width": 420,
+        "native_crop_height": 320,
+        "RGB_pixel_SHA256": "8f76a463e02237146c7351071b4bb93adc44fb62cdf0b8d7a2d355277de0c9a5",
+        "V66_TRGD_foreground_difference_pixels": 0
+      },
+      {
+        "period": "T4",
+        "ROI": [
+          865,
+          650,
+          1285,
+          970
+        ],
+        "native_crop_width": 420,
+        "native_crop_height": 320,
+        "RGB_pixel_SHA256": "e3ee7be6762c751602d4b3123b8348512673d2a05e1861f0e658cd8ad7a088fe",
+        "V66_TRGD_foreground_difference_pixels": 0
+      }
+    ]
+  },
+  "evaluation_versions_not_interchangeable": true,
+  "metric_domain": "Previously annotated reference-root pixels of development sequence0353-2-B3, T2\u2013T4; background excluded; no independent temporal test set"
+}

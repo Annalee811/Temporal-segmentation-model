@@ -1,0 +1,50 @@
+{
+  "TRGD_ABCD_uniform_fonts_README.md": {
+    "bytes": 1487,
+    "sha256": "ab903f8baebc9ca5e74091f349da600399aa02e5c4ff079811590e0b5aacceaf"
+  },
+  "TRGD_ABCD_uniform_fonts_caption_analysis.docx": {
+    "bytes": 41402,
+    "sha256": "a7fa7fdc89c71876f66f28f90f5a86652b6a2899011771f03468991766fbdc85"
+  },
+  "TRGD_ABCD_uniform_fonts_bundle.zip": {
+    "bytes": 14366554,
+    "sha256": "5be59c3ebcbd962f93eddc3b4c3dbaa786c369f7939ab9c116167cce7efcd9f6"
+  },
+  "TRGD_ABCD_uniform_fonts.pdf": {
+    "bytes": 3711480,
+    "sha256": "0dc98df478eb826bbe763076647bde58655169696a891aa4df78917328f7fa54"
+  },
+  "TRGD_ABCD_uniform_fonts_D_ROI_error_counts.csv": {
+    "bytes": 258,
+    "sha256": "b9c8de2feb96e0cca817385f703dd6f0003295305bbd08bf2fb0fa04d4470108"
+  },
+  "TRGD_ABCD_uniform_fonts.tiff": {
+    "bytes": 9788780,
+    "sha256": "d92d6a19315fb0798e49d331931d8fbe4171ff9b43e879d2166e4a86cfc068e1"
+  },
+  "TRGD_ABCD_uniform_fonts.png": {
+    "bytes": 2247319,
+    "sha256": "bebd5902640a6edff006ac649d63a4d3c77050b19c8a7c96c51d083a67b3e48e"
+  },
+  "TRGD_ABCD_uniform_fonts_caption_analysis_EN.md": {
+    "bytes": 5316,
+    "sha256": "fcc1c951761b00fc9354bf617a86123df9a867a5d9a5cf08f830067bdcd46a17"
+  },
+  "TRGD_ABCD_uniform_fonts_provenance.json": {
+    "bytes": 5027,
+    "sha256": "668719199ec58cd51992239645da8c03deee364654c2363ebbd204a9adfcee9c"
+  },
+  "TRGD_ABCD_uniform_fonts_caption_analysis_CN.md": {
+    "bytes": 4265,
+    "sha256": "ffe33500b6c635eb0a31e87b45a8b011b605d6e8f35a92d27432acf4590c0e02"
+  },
+  "TRGD_ABCD_uniform_fonts_preview.png": {
+    "bytes": 993423,
+    "sha256": "c52be97de9d793b2c24d84137c566b3c58ec19a67ba53ed4f27c55eadaf8048e"
+  },
+  "TRGD_ABCD_uniform_fonts.svg": {
+    "bytes": 5541333,
+    "sha256": "5fd77f98d70f8ae4ee96af9fe8ceb697c88f9cdfa22d3454523c3c40aaedad93"
+  }
+}
