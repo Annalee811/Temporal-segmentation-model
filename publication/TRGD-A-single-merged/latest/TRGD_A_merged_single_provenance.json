@@ -1,0 +1,48 @@
+{
+  "version": "latest",
+  "source": "work/TRGD_latest_whole_ablation/metrics.csv",
+  "macro_Dice_percent": [
+    89.14478271131526,
+    92.31343022434227
+  ],
+  "rows": [
+    {
+      "model": "TRGD off",
+      "scope": "annotated_reference_roots_including_missed",
+      "existing_root_Precision": "0.9777681695964113",
+      "existing_root_Recall": "0.9291363655039238",
+      "existing_root_Dice": "0.9528321388741493",
+      "existing_root_IoU": "0.9099134668339826",
+      "new_root_Precision": "0.8201338124148185",
+      "new_root_Recall": "0.8402366112796558",
+      "new_root_Dice": "0.830063515352156",
+      "new_root_IoU": "0.7094945120905505",
+      "Accuracy": "0.9141782517412319",
+      "missed_root_pixels": "17438",
+      "evaluated_root_pixels": "468203",
+      "macro_Dice": "0.8914478271131526"
+    },
+    {
+      "model": "TRGD on",
+      "scope": "annotated_reference_roots_including_missed",
+      "existing_root_Precision": "0.9772683632537648",
+      "existing_root_Recall": "0.9540577879124039",
+      "existing_root_Dice": "0.9655236038508366",
+      "existing_root_IoU": "0.9333452241588078",
+      "new_root_Precision": "0.9318317042073948",
+      "new_root_Recall": "0.8349687099353889",
+      "new_root_Dice": "0.8807450006360088",
+      "new_root_IoU": "0.786902896244811",
+      "Accuracy": "0.9340200724899242",
+      "missed_root_pixels": "17438",
+      "evaluated_root_pixels": "468203",
+      "macro_Dice": "0.9231343022434226"
+    }
+  ],
+  "figure": "One shared Cartesian axis; four model/class series; no qualitative image grid",
+  "class_colors": {
+    "new_root": "#D89500",
+    "existing_root": "#2D73A6"
+  },
+  "fonts": "Black Times New Roman"
+}

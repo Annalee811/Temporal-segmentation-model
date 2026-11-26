@@ -1,0 +1,38 @@
+{
+  "TRGD_A_merged_attached_values.svg": {
+    "bytes": 17154,
+    "sha256": "de3ff7627e19541d0b47ca551d56e32dc20070e3b520c041f48c96819e6746cf"
+  },
+  "TRGD_A_merged_attached_values_preview.png": {
+    "bytes": 127516,
+    "sha256": "10252839eff2220aae56d97b40f2017253f508b1d8e375ef2a2c3e873dfb58b0"
+  },
+  "TRGD_A_merged_attached_values_caption_CN.txt": {
+    "bytes": 500,
+    "sha256": "e57aeb9dbf371acacc83b4ff77ec000c17699f70fe799efa466c0f90092b4032"
+  },
+  "TRGD_A_merged_attached_values_plot_values.csv": {
+    "bytes": 793,
+    "sha256": "73c4c1cada24d9c7caf6284070dfa2530d1a58b116f4de96728284cb4154ab03"
+  },
+  "TRGD_A_merged_attached_values.png": {
+    "bytes": 442271,
+    "sha256": "70a1a3c5285c981f8a2e99dcfd0280689cb02d85fc3e7f07dc7a5509609b71e8"
+  },
+  "TRGD_A_merged_attached_values_provenance.json": {
+    "bytes": 1666,
+    "sha256": "28bac40468b85f1e5491a123055d2f5adfde7e2cf85b9c382f1e90f439d2edee"
+  },
+  "TRGD_A_merged_attached_values.tiff": {
+    "bytes": 1312774,
+    "sha256": "99bdf999ed9126f974c983a04b4f84bfa5f5f758c87c01240434656f8ec58f76"
+  },
+  "TRGD_A_merged_attached_values_bundle.zip": {
+    "bytes": 1171644,
+    "sha256": "61fa9276f44dfc982e84d323f5d96ecda12d390492172e53567fefc36dc864b6"
+  },
+  "TRGD_A_merged_attached_values.pdf": {
+    "bytes": 47684,
+    "sha256": "67856efb44dc4b02a57951fdf4b6776881e60615d58b8e4aec8ba37685ef624c"
+  }
+}

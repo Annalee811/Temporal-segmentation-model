@@ -1,0 +1,48 @@
+{
+  "version": "attached_values",
+  "source": "work/V90_trgd_evaluation/metrics.csv; rows V66 U-Net and TRGD on",
+  "macro_Dice_percent": [
+    90.95087113309097,
+    93.59178365536735
+  ],
+  "rows": [
+    {
+      "comparison": "temporal_baseline",
+      "model": "V66 U-Net",
+      "existing_root_Precision": "0.966169721850122",
+      "existing_root_Recall": "0.9742131969267431",
+      "existing_root_Dice": "0.9701747880678694",
+      "existing_root_IoU": "0.942077137777248",
+      "new_root_Precision": "0.8670585276089863",
+      "new_root_Recall": "0.8313763820307443",
+      "new_root_Dice": "0.84884263459395",
+      "new_root_IoU": "0.737381925445559",
+      "Accuracy": "0.950179729732616",
+      "missed_root_pixels": "0",
+      "evaluated_root_pixels": "468203",
+      "macro_Dice": "0.9095087113309097"
+    },
+    {
+      "comparison": "pipeline_ablation",
+      "model": "TRGD on",
+      "existing_root_Precision": "0.9693083569864467",
+      "existing_root_Recall": "0.990064813673528",
+      "existing_root_Dice": "0.979576644431374",
+      "existing_root_IoU": "0.9599708190582423",
+      "new_root_Precision": "0.9450738216922203",
+      "new_root_Recall": "0.8450348443113013",
+      "new_root_Dice": "0.892259028675973",
+      "new_root_IoU": "0.8054762365695479",
+      "Accuracy": "0.9656623302285547",
+      "missed_root_pixels": "0",
+      "evaluated_root_pixels": "468203",
+      "macro_Dice": "0.9359178365536736"
+    }
+  ],
+  "figure": "One shared Cartesian axis; four model/class series; no qualitative image grid",
+  "class_colors": {
+    "new_root": "#D89500",
+    "existing_root": "#2D73A6"
+  },
+  "fonts": "Black Times New Roman"
+}

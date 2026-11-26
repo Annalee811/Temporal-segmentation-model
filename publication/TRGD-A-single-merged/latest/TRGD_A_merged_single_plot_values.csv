@@ -1,0 +1,17 @@
+﻿root_class,model,metric,score_percent
+New root,V66 prior (TRGD off),Precision,82.01338124148185
+New root,V66 prior (TRGD off),Recall,84.02366112796558
+New root,V66 prior (TRGD off),Dice,83.0063515352156
+New root,V66 prior (TRGD off),IoU,70.94945120905504
+New root,TRGD (V90),Precision,93.18317042073949
+New root,TRGD (V90),Recall,83.49687099353889
+New root,TRGD (V90),Dice,88.07450006360088
+New root,TRGD (V90),IoU,78.6902896244811
+Existing root,V66 prior (TRGD off),Precision,97.77681695964114
+Existing root,V66 prior (TRGD off),Recall,92.91363655039237
+Existing root,V66 prior (TRGD off),Dice,95.28321388741493
+Existing root,V66 prior (TRGD off),IoU,90.99134668339826
+Existing root,TRGD (V90),Precision,97.72683632537648
+Existing root,TRGD (V90),Recall,95.4057787912404
+Existing root,TRGD (V90),Dice,96.55236038508366
+Existing root,TRGD (V90),IoU,93.33452241588078
